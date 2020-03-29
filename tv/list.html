@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>初哥直播频道列表</title>
+<style type="text/css">
+* {margin: 0;padding: 0;outline: none;}
+html {height: 100%; }
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body{height:100%;background:#232323;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+/*定位*/
+.none { display:none }
+/*通用*/
+.bingdoum3u8{ width:100%;height:100%;}
+.main {overflow:hidden; zoom:1 }
+.main .left-sider { float:left; width:100%; }
+.operate h3 { font-family: "Microsoft YaHei",微软雅黑; font-size:16px; background:#232323 url("static/images/u8d891af2b286481fbc35903efb3ee265n.png") 15px center no-repeat;_background:#232323 url("https://ae01.alicdn.com/kf/Ub0afd996eae24cfeb0466bae31f9a699r.png") 15px center no-repeat; height:43px; line-height:43px; padding-left:12px;color:#888;text-indent:30px; }
+.operate ul li { display:inline; margin-bottom:1px;}
+.operate ul li a { text-decoration:none; font-size:14px; color:#888; display:block;  height:43px;  line-height:43px;  }
+.operate ul li a.noline { border-bottom:none; }
+.operate ul li a:hover{ color:#eee;text-decoration:none;background:url("static/images/u595f8142ce3e4314941810ff113678b7b.png") 10px 10px no-repeat;_background:url("https://ae01.alicdn.com/kf/U71f799fe9d7d46e3a18399a5325d3da0R.png") 10px 10px no-repeat;}
+.operate ul li a.sel{ color:#eee;text-decoration:none;background:url("static/images/u61b89571da6d4ff99488b9e36e382822q.png") 10px 10px no-repeat;_background:url("https://ae01.alicdn.com/kf/Uf76af22c42c54c86997cf97b5dbe85eb8.png") 10px 10px no-repeat;}
+.operate ul li a.selected:hover { color:#fff; }
+.operate ul li .selected { background-color:#eee;  background-position:200px -9px; color:#fff; }
+.operate ul li {  display:inline-block; width:100%; position: relative; min-height:43px; _height:43px; z-index: 10; zoom:1 }
+.operate ul li h4 { cursor:pointer; background:#2e2e2e url(static/images/u89f8a8d3280442909ba9b3f42ece14835.png) no-repeat 10px 18px; padding-left:30px; text-decoration:none; font-size:14px; color:#999; display:block;  line-height:43px; font-weight:normal; }
+.operate ul li.noline { border-bottom:none; }
+.operate ul li h4:hover { color:#eee; text-decoration:none; }
+.operate ul li.selected h4 { background-position:10px -37px; }
+.operate ul li a { }
+.operate ul li .on a { color:#eee; font-weight:bold; }
+.operate ul li a:hover { color:#eee; text-decoration:none;}
+.bg-color { background-color:#8caf00; }
+.operate li .list-item { padding:5px 0; position:relative; zoom:1;background:#232323; }
+.operate li .list-item p { padding-left:8px;white-space:nowrap;}
+.operate li .list-item a { background:none;  border:none; color: #888; display:block; height:32px; line-height: 32px; margin: 0 -1px 0 1px; padding-left: 30px;  position: relative; text-decoration: none; font-size:12px;background:url("static/images/u211e4a0c3e6445d48f81f97643ca6d39q.png") 10px 10px no-repeat;_background:url("https://ae01.alicdn.com/kf/U83dc719bbd484e6588bd244bd461bc7bb.png") 10px 10px no-repeat; }
+</style>
+<script src="static/js/jquery.min.js" type="text/javascript"></script>
+<script>
+// JavaScript Document
+function navList(id) {
+    var $obj = $("#J_navlist"), $item = $("#J_nav_" + id);
+    $item.addClass("on").parent().removeClass("none").parent().addClass("selected");
+    $obj.find("h4").hover(function () {
+        $(this).addClass("hover");
+    }, function () {
+        $(this).removeClass("hover");
+    });
+    $obj.find("p").hover(function () {
+        if ($(this).hasClass("on")) { return; }
+        $(this).addClass("hover");
+    }, function () {
+        if ($(this).hasClass("on")) { return; }
+        $(this).removeClass("hover");
+    });
+    $obj.find("h4").click(function () {
+        var $div = $(this).siblings(".list-item");
+        if ($(this).parent().hasClass("selected")) {
+            $div.slideUp(600);
+            $(this).parent().removeClass("selected");
+        }
+        if ($div.is(":hidden")) {
+            $("#J_navlist li").find(".list-item").slideUp(600);
+            $("#J_navlist li").removeClass("selected");
+            $(this).parent().addClass("selected");
+            $div.slideDown(600);
+
+        } else {
+            $div.slideUp(600);
+        }
+    });
+}
+</script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false">
+<div class="bingdoum3u8">
+<div class="main">
+<div class="left-sider">
+<div class="operate">
+<h3>直播列表<a style="margin-left:5px;color:#888;text-decoration:none;font-size:13px;" rel="nofollow" href='javascript:location.reload()'>(刷新)</a></h3>
+<ul id="J_navlist">
+<li>
+<h4>热门频道</h4>
+<div class="list-item">
+<p><a href="./m3u8/gd/ggpd.html#" target="iframe-player">本站不录制视频</a></p>
+<p><a href="./m3u8/gd/ggpd.html#" target="iframe-player">储存视频</a></p>
+<p><a href="./m3u8/gd/ggpd.html#" target="iframe-player">我们只是视频的搬运工</a></p>
+<p><a href="./m3u8/gd/ggpd.html#" target="iframe-player">节目源持续更新中</a></p>
+</div>
+</li>
+<li>
+<h4>中央频道</h4>
+<div class="list-item none">
+<p><a href="./m3u8/CCTV5.html" target="iframe-player">CCTV-5体育</a></p>
+<p><a href="./m3u8/CCTV6.html" target="iframe-player">CCTV-6电影</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-8电视剧</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-9纪录</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-13新闻</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-14少儿</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-15音乐</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-5+体育赛事</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-12社会与法</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-11戏曲</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-10科教</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-7军事·农业</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-4中文国际</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-3综艺</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-2财经</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-1综合</a></p>
+</div>
+</li>
+<li>
+<h4>卫视频道</h4>
+<div class="list-item none">
+
+</div>
+</li>
+<li>
+<h4>体育频道</h4>
+<div class="list-item none">
+<p><a href="./m3u8/#" target="iframe-player">先锋兵羽</a></p>
+<p><a href="./m3u8/#" target="iframe-player">辽宁体育频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">江苏体育休闲频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">广东体育频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-5体育</a></p>
+<p><a href="./m3u8/#" target="iframe-player">劲爆体育频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">五星体育</a></p>
+<p><a href="./m3u8/#" target="iframe-player">北京体育</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-5+体育赛事</a></p>
+</div>
+</li>
+<li>
+<h4>少儿频道</h4>
+<div class="list-item none">
+<p><a href="./m3u8/#" target="iframe-player">云南少儿频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">济南少儿频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">济南娱乐频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">浙江少儿频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">深圳少儿频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">广州影视频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">嘉佳卡通频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">重庆少儿频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">CCTV-14少儿</a></p>
+<p><a href="./m3u8/#" target="iframe-player">河北少儿科教频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">卡酷少儿频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">炫动卡通频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">优漫卡通频道</a></p>
+<p><a href="./m3u8/#" target="iframe-player">金鹰卡通频道</a></p>
+</div>
+</li>
+<li>
+<h4>广东</h4>
+<div class="list-item none">
+<p><a href="./m3u8/gd/ggpd.html" target="iframe-player">广东公共频道</a></p>
+<p><a href="./m3u8/gd/zjpd.html" target="iframe-player">广东珠江频道</a></p>
+<p><a href="./m3u8/gd/xwpd.html" target="iframe-player">广东新闻频道</a></p>
+<p><a href="./m3u8/gd/gjpd.html" target="iframe-player">广东国际频道</a></p>
+<p><a href="./m3u8/gd/nfws.html" target="iframe-player">广东南方卫视</a></p>
+<p><a href="./m3u8/gd/yspd.html" target="iframe-player">广东影视频道</a></p>
+<p><a href="./m3u8/gd/sepd.html" target="iframe-player">广东少儿频道</a></p>
+<p><a href="./m3u8/gd/kjpd.html" target="iframe-player">广东科教频道</a></p>
+</div>
+</li>
+<li>
+<h4>电影频道</h4>
+<div class="list-item none">
+<p><a href="./m3u8/dy/linzy.html" target="iframe-player">林正英</a></p>
+<p><a href="./m3u8/dy/shwj.html" target="iframe-player">生化危机</a></p>
+<p><a href="./m3u8/dy/snp.html" target="iframe-player">少年派</a></p>
+<p><a href="./m3u8/dy/zzp.html" target="iframe-player">战争片</a></p>
+<p><a href="./m3u8/dy/sdyjq.html" target="iframe-player">速度与激情</a></p>
+<p><a href="./m3u8/dy/khp.html" target="iframe-player">科幻片</a></p>
+</div>
+</li>
+<li>
+<h4>学而思网课</h4>
+<div class="list-item none">
+<p><a href="./m3u8/xes/x1.html" target="iframe-player">小学一年级</a></p>
+<p><a href="./m3u8/xes/x2.html" target="iframe-player">小学二年级</a></p>
+<p><a href="./m3u8/xes/x3.html" target="iframe-player">小学三年级</a></p>
+<p><a href="./m3u8/xes/x4.html" target="iframe-player">小学四年级</a></p>
+<p><a href="./m3u8/xes/x5.html" target="iframe-player">小学五年级</a></p>
+<p><a href="./m3u8/xes/x6.html" target="iframe-player">小学六年级</a></p>
+<p><a href="./m3u8/xes/c1.html" target="iframe-player">初中一年级</a></p>
+<p><a href="./m3u8/xes/c2.html" target="iframe-player">初中二年级</a></p>
+<p><a href="./m3u8/xes/c3.html" target="iframe-player">初中三年级</a></p>
+<p><a href="./m3u8/xes/g1.html" target="iframe-player">高中一年级</a></p>
+<p><a href="./m3u8/xes/g2.html" target="iframe-player">高中二年级</a></p>
+<p><a href="./m3u8/xes/g3.html" target="iframe-player">高中三年级</a></p>
+</div>
+</li>
+</ul>
+<script type="text/javascript" language="javascript">
+			navList(12);
+		</script>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+        window.onload = function(){
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

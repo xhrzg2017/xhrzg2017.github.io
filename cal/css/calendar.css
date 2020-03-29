@@ -1,0 +1,85 @@
+﻿/*the styles of calendar*/
+div.hx_calendar,div.hx_calendar * {
+    font-size:12px;
+    margin:0;
+    padding:0;
+    line-height:normal;
+    font-family:'寰蒋闆呴粦'
+}
+div.hx_calendar li { list-style:none;}
+/*background of ico list*/
+div.hx_calendar .cal_header span,
+div.hx_calendar .cal_footer .cal_today span,
+div.hx_calendar .cal_footer .cal_close,
+div.hx_calendar .year_panel .year_page span
+{background: url(../images/calimg_red.gif) no-repeat;}
+
+div.hx_calendar .cal_contrainer {
+    width:202px;
+    border:1px solid #999;
+    background:#FFF;
+    position:relative;
+}
+div.hx_calendar .clear {clear:both;}
+div.hx_calendar .cal_header { width:180px; height:22px;overflow:hidden; padding:5px 10px 0 10px;}
+div.hx_calendar .cal_header span.month_prev { float:left; width:5px; height:9px; overflow:hidden; background-position:0 0; margin-right:5px; margin-top:3px;}
+div.hx_calendar .cal_header .month_show { float:left; width:40px; height:18px; line-height:18px;text-align:center; cursor:pointer; margin-right:5px;}
+div.hx_calendar .cal_header span.month_next { float:left; width:5px; height:9px;overflow:hidden; background-position:0 -15px;margin-top:3px;}
+div.hx_calendar .cal_header .year_opt { float:right; width:11px; margin-left:5px;}
+div.hx_calendar .cal_header .year_opt span.year_prev { display:block; width:11px; height:7px; overflow:hidden; background-position:0 -75px;}
+div.hx_calendar .cal_header .year_opt span.year_next { display:block; width:11px; height:7px; overflow:hidden; background-position:0 -90px; margin-top:4px;}
+div.hx_calendar .cal_header .year_show {float:right; width:48px; text-align:center; line-height:16px; height:16px; border:1px solid #7F9DB9; cursor:pointer;}
+
+div.hx_calendar .cal_nav {background:#EAEAEA; width:100%; height:26px; overflow:hidden; margin-top:3px;}
+div.hx_calendar .cal_nav ul { width:196px; overflow:hidden; margin:0 auto;}
+div.hx_calendar .cal_nav ul li {float:left; list-style:none; width:28px; height:26px; text-align:center; line-height:26px;}
+div.hx_calendar .cal_nav ul li.week { color:#FF0000;}
+
+div.hx_calendar .cal_mainer { margin-top:2px;}
+div.hx_calendar .cal_mainer ul {width:196px; overflow:hidden; margin:0 auto;}
+div.hx_calendar .cal_mainer ul li { float:left; list-style:none; width:28px; height:26px; text-align:center; line-height:26px;}
+div.hx_calendar .cal_mainer ul li.week { color:#FF0000;cursor:pointer;}
+div.hx_calendar .cal_mainer ul li.over { background:#FFC8C8;cursor:pointer;}
+div.hx_calendar .cal_mainer ul li.on {background:#990000; color:#FFF;cursor:pointer;}
+
+div.hx_calendar .cal_footer { width:190px; margin:5px auto 0 auto; overflow:hidden; border-top:1px solid #DFDFDF; padding:5px 0 5px 0;}
+div.hx_calendar .cal_footer .cal_today { float:left;}
+div.hx_calendar .cal_footer .cal_today span { padding-left:20px; line-height:normal; background-position:0 -100px; float:left; cursor:pointer;}
+div.hx_calendar .cal_footer .cal_today span.t28 {background-position:0 -134px;}
+div.hx_calendar .cal_footer .cal_today span.t29 {background-position:0 -151px;}
+div.hx_calendar .cal_footer .cal_today span.t30 {background-position:0 -100px;}
+div.hx_calendar .cal_footer .cal_today span.t31 {background-position:0 -117px;}
+div.hx_calendar .cal_footer .cal_close { float:right; width:10px; height:10px; overflow:hidden; background-position:0 -60px; cursor:pointer;}
+
+div.hx_calendar .month_panel { position:absolute; width:60px; padding:3px;border:1px solid #999; background:#FFF; left:11px; top:18px;}
+div.hx_calendar .month_panel ul { width:60px; overflow:hidden;}
+div.hx_calendar .month_panel ul li {float:left; width:30px; font-size:12px; cursor:pointer; padding-top:5px; padding-bottom:5px; text-align:center;line-height:normal; list-style:none;}
+div.hx_calendar .month_panel ul li.over { background:#FFC8C8}
+
+div.hx_calendar .year_panel {position:absolute; width:193px; padding:0px 0px 3px 3px;border:1px solid #999; background:#FFF; left:2px; top:21px;}
+div.hx_calendar .year_panel ul { width:193px; overflow:hidden;}
+div.hx_calendar .year_panel ul li {float:left; width:45px; font-size:12px; padding-top:5px; padding-bottom:5px; text-align:center; background:#EAEAEA; margin-right:3px; margin-top:3px;line-height:normal; cursor:default;}
+div.hx_calendar .year_panel ul li.over {background:#FFC8C8; cursor:pointer; cursor:pointer;}
+div.hx_calendar .year_panel ul li.on {background:#990000; color:#FFF; cursor:pointer;}
+div.hx_calendar .year_panel ul li.none {background:#FFF; color:#CCC;}
+div.hx_calendar .year_panel .year_page {width:80px; overflow:hidden; margin:5px auto 0 auto;}
+div.hx_calendar .year_panel .year_page span {float:left;width:10px; margin-right:10px; height:15px;}
+div.hx_calendar .year_panel .year_page span.page_prev { background-position:0 -27px;}
+div.hx_calendar .year_panel .year_page span.page_next { background-position:0 -42px;}
+div.hx_calendar .year_panel .year_page span.page_close { background-position:0 -57px;}
+
+
+/*double calendar styles*/
+div.hx_calendar .doub_cal {
+    width:346px;
+    overflow:hidden;
+}
+div.hx_calendar .doub_cal .doub_con {width:170px; height:200px; overflow:hidden; border:1px solid #999; float:left; margin-right:1px;}
+div.hx_calendar .doub_cal .doub_con .cal_header {width:168px; height:24px; overflow:hidden; padding:0; margin:1px auto 0 auto; background:url(../images/calimg.gif) repeat-x 0 -190px; text-align:center; line-height:24px; color:#FFF; font-weight:bold;}
+div.hx_calendar .doub_cal .doub_con .cal_header span.up_month { width:4px; height:8px; background-position:0 -167px; overflow:hidden; float:left; margin:6px 0 0 5px; display:inline; cursor:pointer;}
+div.hx_calendar .doub_cal .doub_con .cal_header span.down_month {width:4px; height:8px; background-position:0 -178px; overflow:hidden; float:right; margin:6px 5px 0 0; display:inline; cursor:pointer;}
+div.hx_calendar .doub_cal .doub_con .cal_nav { background:none; width:168px; height:24px; overflow:hidden;}
+div.hx_calendar .doub_cal .doub_con .cal_nav ul {width:168px;}
+div.hx_calendar .doub_cal .doub_con .cal_nav ul li {width:24px; height:24px;line-height:24px;}
+div.hx_calendar .doub_cal .doub_con .cal_mainer ul {width:168px; overflow:hidden; margin:0 auto;}
+div.hx_calendar .doub_cal .doub_con .cal_mainer ul li {width:24px; height:24px;line-height:24px;}

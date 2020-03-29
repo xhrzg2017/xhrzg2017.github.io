@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<!--网站统计 start-->
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?946242bceac82ae8b9fa2eef41aeec36";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	<meta name="sogou_site_verification" content="Of54CXRALf"/>
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66475682" charset="UTF-8"></script>
+      <!--统计end-->
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>复利计算器</title>
+    <meta name="keywords" content="复利计算器,在线复利计算器,在线复利计算器"/>
+    <meta name="description" content="复利计算器，又名复利增值计算器，在线复利计算器，免费提供在线复利增值计算服务！"/>
+    <link rel="stylesheet" rev="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/calculate.css" type="text/css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/iconfont.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/itz.common.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/plan.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/calculate.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/calc.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico" />
+</head>
+<body style="background:#f6f6f6;">
+
+
+<div class="conter-bar">
+    <div class="inner">
+            <div class="left-content">
+                <p><strong>复利计算器</strong></p>
+                <div id="card5" class="main_mcon_card">
+                    <div class="m_mcon_t"></div>
+                    <div class="m_mcon_m">
+                        <div class="cards_con">
+                            <div class="tabdiv dl30">
+
+                                <div class="clearfix">
+                                    <div class="tool_con06">
+                                        <div class="fljsqBox">
+                                            <dl class="clearfix">
+                                                <dt>计算项目&nbsp;</dt>
+                                                <dd>
+                                                    <input onclick="calc_t(this)" checked="checked" value="CalcPrinc" id="radio" name="Calculate" type="radio">
+                                                    <label for="radio">本金</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <input onclick="calc_t(this)" value="CalcComp" id="radio2" name="Calculate" type="radio">
+                                                    <label for="radio2">零存整取</label>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                <dt>存入本金&nbsp;
+                                                </dt>
+                                                <dd><input value="" class="txt" id="principal" name="principal" type="text"onkeyup="this.value=this.value.replace(/^(\d*\.?\d{0,2}).*/,'$1')" /></dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                <dt>年利率(%)&nbsp;</dt>
+                                                <dd><input value="" class="txt" id="yearrate" name="yearrate" type="text"onkeyup="this.value=this.value.replace(/^(\d*\.?\d{0,2}).*/,'$1')"></dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                <dt>存入年限&nbsp;</dt>
+                                                <dd><input value="" class="txt" id="years" name="years" type="text"onkeyup="this.value=this.value.replace(/^(\d*\.?\d{0,2}).*/,'$1')"></dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                <dt>年复利次数&nbsp;</dt>
+                                                <dd><input value="12" class="txt" id="bonustime" name="bonustime" type="text" onkeyup="this.value=this.value.replace(/^(\d*\.?\d{0,2}).*/,'$1')"></dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                <dt>复利终值&nbsp;</dt>
+                                                <dd><input class="txt" readonly="" id="compinterest" value="计算得出" name="compinterest" type="text"onkeyup="this.value=this.value.replace(/^(\d*\.?\d{0,2}).*/,'$1')" ></dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                <dt>&nbsp;</dt>
+                                                <dd><input onclick="calc()" value="计算" class="changebutton" id="c_btn" name="c_btn" type="submit"></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tool_main">
+                                    <div class="ps">
+                                        <p><strong>工具说明：</strong></p>
+                                        <p>复利终值计算器是计算以复利方式记息的终值或现值。复利的计算是考虑前一期利息再生利息的问题，要计入本金重复计息，即“利生利”“利滚利”。</p>
+                                        <p><strong>例如：</strong></p>
+                                        <p>本金为50000元，利率或者投资回报率为3%，投资年限为30年，那么，30年后所获得的利息收入，按复利计算公式来计算就是：50000×（1+3%）^30</p>
+                                        <p><strong>复利计算公式</strong></p>
+                                        <p>F=P*(1+i)N(次方)</p>
+                                        <p>F：复利终值&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P：本金</p>
+                                        <p>i：利率&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N：利率获取时间的整数倍</p>
+                                    </div>
+                                </div>
+                            </div>
+<!-- contact -->
+<p>注 年复利次数默认值为“12”可修改，按季算请输入“4”。</p>
+<p>    2019年中国银行官网，活期存款利率是0.3%；三个月期的存款利率是1.35%，六个月期的存款利率是1.55%，一年期的存款利率是1.75%，两年期的存款利率是2.25%，三年期的存款利率是2.75%，五年期的存款利率是2.75%。</p>
+			<div class="cpy-right text-center">
+				<p>|| Copyright &copy; 2019 <a href="https://xhrzg2017.github.io/" target="_blank" title="广州电脑初哥工作室">广州电脑初哥工作室</a> 版权所有 最后编辑 2019/11/04</a></p>
+			</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+</body>
+
+
+<script type="text/javascript">
+    function calc_t(e){if($(e).val()=="CalcPrinc")var t="#compinterest",n="#principal";else var n="#compinterest",t="#principal";$(t).attr("readonly",!0).val("计算得出"),$(n).attr("readonly",!1).val("")}function calc(){var e=$("#yearrate").val(),t=$("#years").val(),n=$("#bonustime").val();if($('input[name="Calculate"]:checked').val()=="CalcPrinc"){var r=$("#principal").val();if(!r.match(/\d{1,10}(\.\d{1,2})?/)){alert("存入本金请输入正数（整数最多10位,小数点后最多2位)");return}}else{var i=$("#compinterest").val();if(!i.match(/\d{1,12}(\.\d{1,2})?/)){alert("复利终值请输入正数（整数最多12位,小数点后最多2位)");return}}if(!e.match(/\d{1,10}(\.\d{1,2})?/)){alert("年利率请输入正数");return}if(!t.match(/\d{1,4}(\.\d{1,2})?/)){alert("存入年限请输入正数");return}if(!n.match(/\d{1,4}/)){alert("年复利次数请输入正整数");return}$('input[name="Calculate"]:checked').val()=="CalcPrinc"?$("#compinterest").val(calc_c(e,n,t,r)):$("#principal").val(calc_p(e,n,t,i))}function calc_c(e,t,n,r){var i=parseFloat(e)/100,s=parseInt(t),o=parseFloat(n),u=Math.pow(1+i/s,s)-1,a=parseFloat(r),f=a*Math.pow(1+u,o);return Round(f,4)}function calc_p(e,t,n,r){var i=parseFloat(e)/100,s=parseInt(t),o=parseFloat(n),u=Math.pow(1+i/s,s)-1,a=parseFloat(r),f=a*Math.pow(1+u,-o);return Round(f,4)}function Round(e,t){return t==0?p=1:t?p=Math.pow(10,t):p=100,Math.round(e*p)/p}
+</script>
+
+</html>
