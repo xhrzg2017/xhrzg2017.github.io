@@ -31,7 +31,6 @@
 中视,http://104.250.154.42:8080/ZZ_zhongshi/ZZ_zhongshi.m3u8
 香港卫视HKS,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 香港卫视HKS,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
-香港卫视HKS,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 移动IPTV直播&回看
 3D频道,http://112.17.40.140/PLTV/88888888/224/3221226475/index.m3u8
 纪录片-1,http://112.17.40.140/PLTV/88888888/224/3221226360/index.m3u8
@@ -98,13 +97,9 @@ BesTV4K,http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 爱奇艺_儿童乐园,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_dongmantiandi_1080p_t10/c15_lb_dongmantiandi_1080p_t10.m3u8
 爱奇艺_亲子启蒙,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_qinziqimeng_1080p_t10/c16_lb_qinziqimeng_1080p_t10.m3u8
 
-爱奇艺_好莱坞大片,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_haolaiwudapian_1080p_t10/c16_lb_haolaiwudapian_1080p_t10.m3u8
-爱奇艺_五星影院,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_wuxingyingyuan_1080p_t10/c15_lb_wuxingyingyuan_1080p_t10.m3u8
 爱奇艺_动作电影,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_dongzuodianying_1080p_t10/c16_lb_dongzuodianying_1080p_t10.m3u8
 爱奇艺_黑帮电影,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_heibangdianying_1080p_t10/c16_lb_heibangdianying_1080p_t10.m3u8
 爱奇艺_喜剧电影,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_xijudianying_1080p_t10/c16_lb_xijudianying_1080p_t10.m3u8
-爱奇艺_历史秘闻,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_lishimiwen_1080p_t10/c15_lb_lishimiwen_1080p_t10.m3u8
-爱奇艺_军事观察,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_junshinew_1080p_t10/c16_lb_junshinew_1080p_t10.m3u8
 网络频道
 华数_华数PCM吃鸡,http://hls-ott-zhibo.wasu.tv/live/428/index.m3u8
 华数_MC_阿阳历险记,http://hls-ott-zhibo.wasu.tv/live/435/index.m3u8
@@ -112,7 +107,6 @@ BesTV4K,http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 华数_造物集,http://hls-ott-zhibo.wasu.tv/live/180/index.m3u8
 华数_时装秀,http://hls-ott-zhibo.wasu.tv/live/303/index.m3u8
 华数_野小叶,http://hls-ott-zhibo.wasu.tv/live/385/index.m3u8
-华数_玩美咖,http://hls-ott-zhibo.wasu.tv/live/180/index.m3u8
 华数_BBC系列,http://hls-ott-zhibo.wasu.tv/live/394/index.m3u8
 华数_历史解密,http://hls-ott-zhibo.wasu.tv/live/369/index.m3u8
 华数_科教人文,http://hls-ott-zhibo.wasu.tv/live/391/index.m3u8
@@ -138,7 +132,6 @@ CCTV7,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
 CCTV8,http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8
 CCTV8,http://ivi.bupt.edu.cn/hls/cctv8.m3u8
 CCTV8,http://cctvcnch5c.v.wscdns.com/live/cctv8_2/index.m3u8
-CCTV9,http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8
 CCTV9,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
 CCTV9,http://cctvcnch5c.v.wscdns.com/live/cctvjilu_2/index.m3u8
 CCTV10,http://ivi.bupt.edu.cn/hls/cctv10hd.m3u8
@@ -167,7 +160,6 @@ CGTN俄语频道,http://live.cgtn.com/1000r/prog_index.m3u8
 CGTN纪录频道,http://live.cgtn.com/1000d/prog_index.m3u8
 CCTV17,http://ivi.bupt.edu.cn/hls/cctv17hd.m3u8
 数字付费
-CCTV高清,http://hls-ott-zhibo.wasu.tv/live/369/index.m3u8
 CCTV新科动漫,http://cctvtxyh5ca.liveplay.myqcloud.com/live/xinkedongman_2_hd.m3u8
 CCTV4K,http://112.17.40.140/PLTV/88888888/224/3221226758/index.m3u8
 CCTV4K,http://117.148.187.83/PLTV/88888888/224/3221226758/index.m3u8
@@ -235,7 +227,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 湖南卫视,http://112.17.40.140/PLTV/88888888/224/3221226569/index.m3u8
 湖南卫视,http://112.17.40.140/PLTV/88888888/224/3221226615/index.m3u8
 金鹰纪实,http://112.17.40.140/PLTV/88888888/224/3221226831/index.m3u8
-金鹰卡通,http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8
 陕西
 西安新闻,http://stream2.xiancity.cn/xatv1/sd/live.m3u8
 西安白鸽,http://stream2.xiancity.cn/xatv2/sd/live.m3u8
@@ -260,10 +251,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 江苏徐州1频道,http://stream.huaihai.tv/xwzh/sd/live.m3u8
 无锡生活,http://live-wx.wifiwx.com/wxtv4/sd/live.m3u8
 吉林
-西安新闻综合,http://stream2.xiancity.cn/xatv1/sd/live.m3u8
-西安白鸽都市,http://stream2.xiancity.cn/xatv2/sd/live.m3u8
-西安文化影视,http://stream2.xiancity.cn/xatv4/sd/live.m3u8
-西安丝路频道,http://stream2.xiancity.cn/xatv5/sd/live.m3u8
 安徽
 安徽卫视HD,http://ivi.bupt.edu.cn/hls/ahhd.m3u8
 黑龙江
@@ -276,7 +263,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 河北少儿科教,http://weblive.hebtv.com/live/hbse_bq/index.m3u8
 河北公共,http://weblive.hebtv.com/live/hbgg_bq/index.m3u8
 河北农民,http://weblive.hebtv.com/live/nmpd_bq/index.m3u8
-河北卫视,http://weblive.hebtv.com/live/hbws_bq/index.m3u8
 直播中国
 全国风景总览,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
 黟县宏村月沼,https://gctxyc.liveplay.myqcloud.com/gc/yxhcyz_1/index.m3u8?contentid=2820180516001
