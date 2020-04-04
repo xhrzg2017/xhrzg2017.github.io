@@ -1,4 +1,14 @@
 #EXTM3U
+#EXTINF:-1 group-title="广东",广州综合
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzzh
+#EXTINF:-1 group-title="广东",广州新闻
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzxw
+#EXTINF:-1 group-title="广东",广州影视
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzys
+#EXTINF:-1 group-title="广东",广州生活
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzsh
+#EXTINF:-1 group-title="广东",番禺综合
+http://live.pybtv.cn/channel1/sd/live.m3u8?_upt=16fb00e01563813775
 #EXTINF:-1 group-title="广东",广东卫视
 http://112.17.40.140/PLTV/88888888/224/3221226225/index.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
@@ -11,6 +21,8 @@ http://ivi.bupt.edu.cn/hls/gdtv.m3u8
 http://112.17.40.140/PLTV/88888888/224/3221226510/index.m3u8
 #EXTINF:-1 group-title="广东",高尔夫
 http://szlive.grtn.cn/grfpd/sd/live.m3u8?_upt=f6e809921583830189
+#EXTINF:-1 group-title="广东",广州法治
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzfz
 #EXTINF:-1 group-title="广东",深圳卫视
 http://ivi.bupt.edu.cn/hls/szhd.m3u8
 #EXTINF:-1 group-title="广东",潮州公共
@@ -37,8 +49,6 @@ http://223.82.250.72/live/fhchinese/1.m3u8
 http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰资讯
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
-#EXTINF:-1 group-title="港澳台",凤凰资讯
-http://223.82.250.72/live/fhzixun/1.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
@@ -117,6 +127,8 @@ http://117.156.28.21/PLTV/88888888/224/3221225904/index.m3u8
 http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 #EXTINF:-1 group-title="4K专区",纯享4k
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/index.m3u8
+#EXTINF:-1 group-title="体育",广州竞赛
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzjs
 #EXTINF:-1 group-title="疫情直播",新华中文
 http://livecdn1.news.cn/cnccn/manifest.m3u8
 #EXTINF:-1 group-title="疫情直播",雷神山实时画面1
@@ -289,6 +301,8 @@ http://ivi.bupt.edu.cn/hls/cetv4.m3u8
 http://ivi.bupt.edu.cn/hls/sdetv.m3u8
 #EXTINF:-1 group-title="中国教育电视台",山东教育
 http://111.12.110.81:6610/000000001000/7341476808603780321/1.m3u8?channel-id=ystenlive&Contentid=7341476808603780321&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=e15b57852d9cd94f58b9ccb1755d812821vv&usergroup=g21077200000&version=1.0&owaccmark=7341476808603780321&owchid=ystenlive&owsid=4493204828792189840&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6fKRK7GAM8s7D%2bvkwMK3SOqEA4VgxLdMGzRQx4LjQbnpNG5Yxx8PWi4awKDvN4RIT%2bt59nOe%2fS6tNZ0ayvMsdu&IASHttpSessionId=SLB1152820180727152955665773
+#EXTINF:-1 group-title="少儿",广州少儿
+http://player.200877926.top/17/gd/gztvm3u8.php?id=gzse
 #EXTINF:-1 group-title="少儿",金鹰卡通
 http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8
 #EXTINF:-1 group-title="少儿",优漫卡通
