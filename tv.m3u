@@ -371,8 +371,6 @@ http://live.nbs.cn/channels/njtv/jkpd/flv:500k/live
 http://live.nbs.cn/channels/njtv/sepd/flv:500k/live
 #EXTINF:-1 group-title="江苏",南京生活
 http://live.nbs.cn/channels/njtv/shpd/flv:500k/live
-#EXTINF:-1 group-title="江苏",江苏卫视
-http://ivi.bupt.edu.cn/hls/jshd.m3u8
 #EXTINF:-1 group-title="江苏",江苏徐州1频道
 http://stream.huaihai.tv/xwzh/sd/live.m3u8
 #EXTINF:-1 group-title="江苏",无锡生活
