@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="广东",南方卫视
-http://nclive.grtn.cn/tvs2/sd/live.m3u8
-#EXTINF:-1 group-title="广东",珠江频道
-http://nclive.grtn.cn/zjpd/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东公共
-http://nclive.grtn.cn/ggpd/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东国际
-http://nclive.grtn.cn/gjpd/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东体育
-http://nclive.grtn.cn/typd/sd/live.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
 http://112.17.40.140/PLTV/88888888/224/3221226225/index.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
@@ -19,46 +9,16 @@ http://ivi.bupt.edu.cn/hls/gdhd.m3u8
 http://ivi.bupt.edu.cn/hls/gdtv.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
 http://112.17.40.140/PLTV/88888888/224/3221226510/index.m3u8
-#EXTINF:-1 group-title="广东",广东新闻
-http://nclive.grtn.cn/xwpd/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东影视
-http://nclive.grtn.cn/tvs4/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东少儿
-http://nclive.grtn.cn/tvs5/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东房产
-http://nclive.grtn.cn/fcpd/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东科教
-http://nclive.grtn.cn/tvs1hd/hd/live.m3u8
-#EXTINF:-1 group-title="广东",广东经济科教
-http://nclive.grtn.cn/tvs1hd/hd/live.m3u8
-#EXTINF:-1 group-title="广东",广东房产
-http://nclive.grtn.cn/fcpd/sd/live.m3u8
-#EXTINF:-1 group-title="广东",嘉佳卡通
-http://nclive.grtn.cn/jjkt/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东经济科教
-http://nclive.grtn.cn/tvs1/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东少儿
-http://nclive.grtn.cn/tvs5/sd/live.m3u8
-#EXTINF:-1 group-title="广东",广东综艺4K
-http://nclive.grtn.cn:80/4K/sd/live.m3u8
-#EXTINF:-1 group-title="广东",南方购物
-http://nclive.grtn.cn/nfgw/sd/live.m3u8
 #EXTINF:-1 group-title="广东",高尔夫
 http://szlive.grtn.cn/grfpd/sd/live.m3u8?_upt=f6e809921583830189
 #EXTINF:-1 group-title="广东",深圳卫视
 http://ivi.bupt.edu.cn/hls/szhd.m3u8
 #EXTINF:-1 group-title="广东",潮州公共
 http://live.zscz0768.com/live/ggpd.m3u8
-#EXTINF:-1 group-title="广东",潮安综合
-http://chaoan.chaoantv.com:8278/zongyi_1028/playlist.m3u8
-#EXTINF:-1 group-title="广东",潮安影视
-http://chaoan.chaoantv.com:8278/live/chaoanyingshi.m3u8
 #EXTINF:-1 group-title="港澳台",无线新闻
 http://www.chengbo.org/dl/ProxY3.m3u8?id=wxxw&tm=1585447182&key=bff3c943410a8895b1d2279533fcc9d4
 #EXTINF:-1 group-title="港澳台",有线新闻台
 http://www.chengbo.org/dl/ProxY3.m3u8?id=yxxw&tm=1585447540&key=4f45e414fe9c9de8e94364a77ce6e53a
-#EXTINF:-1 group-title="港澳台",有线新闻台
-https://ottproxy2.mott.tv/livehls:cmi/MOB-SCC/index.m3u8
 #EXTINF:-1 group-title="港澳台",有线新闻台
 https://ottproxy2.mott.tv/livehls:cmi/MOB-SCC/01.m3u8
 #EXTINF:-1 group-title="港澳台",有线新闻台
@@ -195,94 +155,6 @@ http://hls-ott-zhibo.wasu.tv/live/303/index.m3u8
 http://hls-ott-zhibo.wasu.tv/live/385/index.m3u8
 #EXTINF:-1 group-title="网络频道",玩美咖
 http://hls-ott-zhibo.wasu.tv/live/180/index.m3u8
-#EXTINF:-1 group-title="网络频道2",央视新闻
-https://aldirect.rtmp.huya.com/backsrc/94525224-2687807366-11544044734917902336-2847699228-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",春晚相声小品
-https://aldirect.rtmp.huya.com/backsrc/29106097-2689281338-11550375396453122048-2777038134-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",成龙
-https://aldirect.rtmp.huya.com/backsrc/94525224-2460685722-10568564701724147712-2789253838-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",林正英(搞笑系列)
-https://aldirect.rtmp.huya.com/backsrc/94525224-2460686034-10568566041753944064-2789274542-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",林正英2
-https://aldirect.rtmp.huya.com/huyalive/29359996-2689615538-11551810774523445248-2847687642-10057-A-1525496014-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",李连杰
-https://al.rtmp.huya.com/src/94525224-2460686093-10568566295157014528-2789253848-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",吴京
-https://aldirect.rtmp.huya.com/backsrc/30765679-2554414705-10971127618396487680-3048991636-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",周润发
-https://aldirect.rtmp.huya.com/backsrc/94525224-2460685774-10568564925062447104-2789253840-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",黄渤
-https://aldirect.rtmp.huya.com/huyalive/30765679-2554414680-10971127511022305280-3048991634-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",刘德华
-https://aldirect.rtmp.huya.com/huyalive/94525224-2467341872-10597152648291418112-2789274550-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",徐峥
-https://aldirect.rtmp.huya.com/huyalive/30765679-2689675828-11552069718101721088-3048991626-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",甄子丹
-https://aldirect.rtmp.huya.com/huyalive/29169025-2686219938-11537226783573147648-2847699096-10057-A-1524024759-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",速度与激情
-https://aldirect.rtmp.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",金庸风云电影
-https://aldirect.rtmp.huya.com/huyalive/29359996-2689645314-11551938661469650944-2847687586-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",死神来了
-https://aldirect.rtmp.huya.com/huyalive/30765679-2484192708-10669526437821677568-3049003172-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",灾难
-https://aldirect.rtmp.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",少年包青天
-https://aldirect.rtmp.huya.com/backsrc/30765679-2534694464-10886429828232249344-2789253856-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",各国赌片
-https://aldirect.rtmp.huya.com/backsrc/29106097-2689446042-11551082794746642432-2789253870-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",黑帮大片
-https://al.rtmp.huya.com/huyalive/30765679-2523417522-10837995731143360512-2777068634-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",隋唐英雄
-https://aldirect.rtmp.huya.com/huyalive/28466698-2689650368-11551960368234364928-2847687592-10057-A-1525508640-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",新水浒传
-https://aldirect.rtmp.huya.com/huyalive/30765679-2523417567-10837995924416888832-2789253832-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",新三国
-https://aldirect.rtmp.huya.com/backsrc/30765679-2523417353-10837995005293887488-2847699118-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",西游记86
-https://aldirect.rtmp.huya.com/backsrc/29141112-2689673336-11552059015043219456-3048991588-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",西游记
-https://aldirect.rtmp.huya.com/src/30765679-2550665260-10955023874743336960-2789253862-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",医馆笑传
-https://al.rtmp.huya.com/huyalive/29359996-2689637846-11551906586653884416-2847687566-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",武林外传
-https://aldirect.rtmp.huya.com/huyalive/29141112-2689670670-11552047564660408320-2847687630-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",康熙王朝
-https://aldirect.rtmp.huya.com/backsrc/29141112-2691519968-11559990239090966528-3049003118-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",雍正王朝
-https://aldirect.rtmp.huya.com/huyalive/29359996-2689277426-11550358594541060096-2847699098-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",铁牙钢齿纪晓岚
-https://aldirect.rtmp.huya.com/backsrc/94525224-2468571348-10602433207502635008-2789253864-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",鹿鼎记
-https://aldirect.rtmp.huya.com/huyalive/94525224-2701055008-11600942924057018368-2847687618-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",亮剑
-https://aldirect.rtmp.huya.com/huyalive/30765679-2475713500-10633108516765696000-2789274576-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",倚天屠龙记
-https://aldirect.rtmp.huya.com/src/30765679-2523417175-10837994240789708800-2789253884-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",神探狄仁杰
-https://aldirect.rtmp.huya.com/huyalive/28466698-2689651522-11551965324626624512-2847699166-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",家有儿女
-https://aldirect.rtmp.huya.com/backsrc/29169025-2686221252-11537232427160174592-2847687508-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",搞笑港片
-https://aldirect.rtmp.huya.com/backsrc/30765679-2480413542-10653295043445522432-3048959596-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",飞车电影
-https://aldirect.rtmp.huya.com/backsrc/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",女神系列2
-https://aldirect.rtmp.huya.com/backsrc/94525224-2472147404-10617792251071299584-2777026638-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",女神系列3
-https://aldirect.rtmp.huya.com/huyalive/28466698-2689661530-11552008308659322880-3049003102-10057-A-0-1_1200.m3u8
-#EXTINF:-1 group-title="网络频道2",楚汉传奇
-https://aldirect.rtmp.huya.com/backsrc/29169025-2686221304-11537232650498473984-2789253854-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",聊斋志异
-https://aldirect.rtmp.huya.com/huyalive/29169025-2750736098-11814321580836651008-3048991666-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",卧底警匪片
-https://aldirect.rtmp.huya.com/huyalive/29169025-2686220598-11537229618251563008-2847687556-10057-A-1524043048-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",陈翔六点半
-https://aldirect.rtmp.huya.com/backsrc/94525224-2655537474-11405446604132450304-2704233350-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",男人帮(挑战极限)
-https://aldirect.rtmp.huya.com/backsrc/28466698-2689655562-11551982676294500352-2847687628-10057-A-0-1_2500.m3u8
-#EXTINF:-1 group-title="网络频道2",好莱坞动作电影
-https://aldirect.rtmp.huya.com/backsrc/30765679-2484192572-10669525853706125312-2847687498-10057-A-0-1_2500.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
 http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
@@ -365,8 +237,6 @@ http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 http://112.17.40.140/PLTV/88888888/224/3221226314/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV17
 http://ivi.bupt.edu.cn/hls/cctv17hd.m3u8
-#EXTINF:-1 group-title="央视",《舌尖上的中国》
-https://aldirect.rtmp.huya.com/huyalive/30765679-2523417472-10837995516394995712-2847699158-10057-A-1521181527-1_1200.m3u8
 #EXTINF:-1 group-title="数字付费",CCTV高清
 http://hls-ott-zhibo.wasu.tv/live/369/index.m3u8
 #EXTINF:-1 group-title="数字付费",CCTV4K
@@ -425,8 +295,6 @@ http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8
 http://112.17.40.140/PLTV/88888888/224/3221226172/index.m3u8
 #EXTINF:-1 group-title="少儿",哈哈悦动
 http://112.17.40.140/PLTV/88888888/224/3221226745/index.m3u8
-#EXTINF:-1 group-title="少儿",猫和老鼠
-https://aldirect.rtmp.huya.com/backsrc/94525224-2679664054-11509069476196777984-2847687532-10057-A-0-1_2500.m3u8
 #EXTINF:-1 group-title="少儿",小马宝莉
 http://hls-ott-zhibo.wasu.tv/live/113/index.m3u8
 #EXTINF:-1 group-title="上海",东方卫视
@@ -521,3 +389,21 @@ http://stream2.xiancity.cn/xatv5/sd/live.m3u8
 http://ivi.bupt.edu.cn/hls/ahhd.m3u8
 #EXTINF:-1 group-title="黑龙江",黑龙江卫视HD
 http://ivi.bupt.edu.cn/hls/hljhd.m3u8
+#EXTINF:-1 group-title="河北",河北卫视
+http://weblive.hebtv.com/live/hbws_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北经济
+http://weblive.hebtv.com/live/hbjj_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北都市
+http://weblive.hebtv.com/live/hbds_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北影视
+http://weblive.hebtv.com/live/hbys_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北少儿科教
+http://weblive.hebtv.com/live/hbse_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北公共
+http://weblive.hebtv.com/live/hbgg_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北农民
+http://weblive.hebtv.com/live/nmpd_bq/index.m3u8
+#EXTINF:-1 group-title="河北",河北卫视
+http://weblive.hebtv.com/live/hbws_bq/index.m3u8
+#EXTINF:-1 group-title="延禧攻略",第1集
+http://zy.kakazy-yun.com/20180719/1jxQhs5K/index.m3u8
