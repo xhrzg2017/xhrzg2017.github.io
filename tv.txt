@@ -93,7 +93,6 @@ BesTV4K,http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 爱奇艺_抗战剧场,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_kangzhanjuchang_1080p_t10/c15_lb_kangzhanjuchang_1080p_t10.m3u8
 爱奇艺_热播电视剧,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_reboju_1080p_t10/c15_lb_reboju_1080p_t10.m3u8
 爱奇艺_历史秘闻,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_lishimiwen_1080p_t10/c15_lb_lishimiwen_1080p_t10.m3u8
-爱奇艺_军事观察,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_junshinew_1080p_t10/c16_lb_junshinew_1080p_t10.m3u8
 爱奇艺_动物兄弟,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_yingshijinqu_1080p_t10/c16_lb_yingshijinqu_1080p_t10.m3u8
 爱奇艺_怀旧动画,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c15_lb_huanjiudongman_1080p_t10/c15_lb_huanjiudongman_1080p_t10.m3u8
 爱奇艺_动作电影,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_dongzuodianying_1080p_t10/c16_lb_dongzuodianying_1080p_t10.m3u8
@@ -106,7 +105,6 @@ BesTV4K,http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 爱奇艺电影-经典重温,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_jingdianjuchang_1080p_t10/c16_lb_jingdianjuchang_1080p_t10.m3u8
 爱奇艺电影-周末影院,http://101.72.196.41/r/baiducdnct.inter.iqiyi.com/tslive/c16_lb_fengxiaogang_1080p_t10/c16_lb_fengxiaogang_1080p_t10.m3u8
 网络频道
-华数_华数PCM吃鸡,http://hls-ott-zhibo.wasu.tv/live/428/index.m3u8
 华数_MC_阿阳历险记,http://hls-ott-zhibo.wasu.tv/live/435/index.m3u8
 华数_种草吧麻麻,http://hls-ott-zhibo.wasu.tv/live/452/index.m3u8
 华数_造物集,http://hls-ott-zhibo.wasu.tv/live/180/index.m3u8
@@ -255,7 +253,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 南京生活,http://live.nbs.cn/channels/njtv/shpd/flv:500k/live
 江苏徐州1频道,http://stream.huaihai.tv/xwzh/sd/live.m3u8
 无锡生活,http://live-wx.wifiwx.com/wxtv4/sd/live.m3u8
-吉林
 安徽
 安徽卫视HD,http://ivi.bupt.edu.cn/hls/ahhd.m3u8
 黑龙江
@@ -338,4 +335,3 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 中央电视台中塔东,https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8?contentid=2820180516001
 中央电视台中塔南,https://gccncc.v.wscdns.com/gc/ztn_1/index.m3u8?contentid=2820180516001
 中央电视台中塔北,https://gcalic.v.myalicdn.com/gc/ztb_1/index.m3u8?contentid=2820180516001
-
