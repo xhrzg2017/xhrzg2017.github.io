@@ -1,14 +1,30 @@
 #EXTM3U
 #EXTINF:-1 group-title="广东",广州综合
 http://player.200877926.top/17/gd/gztvm3u8.php?id=gzzh
+#EXTINF:-1 group-title="广东",广东新闻
+http://s5117133.m.awhost.cn/dl/gd.php?id=xwpd
+#EXTINF:-1 group-title="广东",广东公共
+http://s5117133.m.awhost.cn/dl/gd.php?id=ggpd
+#EXTINF:-1 group-title="广东",南方卫视
+http://s5117133.m.awhost.cn/dl/gd.php?id=tvs2
+#EXTINF:-1 group-title="广东",广东珠江
+http://s5117133.m.awhost.cn/dl/gd.php?id=zjpd
+#EXTINF:-1 group-title="广东",广东影视
+http://s5117133.m.awhost.cn/dl/gd.php?id=tvs4
 #EXTINF:-1 group-title="广东",广州新闻
 http://player.200877926.top/17/gd/gztvm3u8.php?id=gzxw
 #EXTINF:-1 group-title="广东",广州影视
 http://player.200877926.top/17/gd/gztvm3u8.php?id=gzys
 #EXTINF:-1 group-title="广东",广州生活
 http://player.200877926.top/17/gd/gztvm3u8.php?id=gzsh
-#EXTINF:-1 group-title="广东",番禺综合
-http://live.pybtv.cn/channel1/sd/live.m3u8
+#EXTINF:-1 group-title="广东",广东国际
+http://s5117133.m.awhost.cn/dl/gd.php?id=gjpd
+#EXTINF:-1 group-title="广东",广东综艺
+http://s5117133.m.awhost.cn/dl/gd.php?id=4K
+#EXTINF:-1 group-title="广东",广东少儿
+http://s5117133.m.awhost.cn/dl/gd.php?id=tvs5
+#EXTINF:-1 group-title="广东",广东卫视
+http://s5117133.m.awhost.cn/dl/gd.php?id=gdws
 #EXTINF:-1 group-title="广东",广东卫视
 http://112.17.40.140/PLTV/88888888/224/3221226225/index.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
@@ -19,6 +35,8 @@ http://ivi.bupt.edu.cn/hls/gdhd.m3u8
 http://ivi.bupt.edu.cn/hls/gdtv.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
 http://112.17.40.140/PLTV/88888888/224/3221226510/index.m3u8
+#EXTINF:-1 group-title="广东",嘉佳卡通
+http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
 #EXTINF:-1 group-title="广东",高尔夫
 http://szlive.grtn.cn/grfpd/sd/live.m3u8?_upt=f6e809921583830189
 #EXTINF:-1 group-title="广东",广州法治
@@ -59,8 +77,6 @@ http://61.244.22.4/ch3/ch3.live/chunklist_w1228316132.m3u8
 http://202.175.127.77/live/show/ch1/index.m3u8
 #EXTINF:-1 group-title="港澳台",信吉电视
 http://220.130.241.203:1935/sjtv/livestream/chunklist_w1048671923.m3u8
-#EXTINF:-1 group-title="港澳台",中视
-http://104.250.154.42:8080/ZZ_zhongshi/ZZ_zhongshi.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
@@ -377,8 +393,8 @@ http://ivi.bupt.edu.cn/hls/cetv4.m3u8
 http://ivi.bupt.edu.cn/hls/sdetv.m3u8
 #EXTINF:-1 group-title="中国教育电视台",山东教育
 http://111.12.110.81:6610/000000001000/7341476808603780321/1.m3u8?channel-id=ystenlive&Contentid=7341476808603780321&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=e15b57852d9cd94f58b9ccb1755d812821vv&usergroup=g21077200000&version=1.0&owaccmark=7341476808603780321&owchid=ystenlive&owsid=4493204828792189840&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6fKRK7GAM8s7D%2bvkwMK3SOqEA4VgxLdMGzRQx4LjQbnpNG5Yxx8PWi4awKDvN4RIT%2bt59nOe%2fS6tNZ0ayvMsdu&IASHttpSessionId=SLB1152820180727152955665773
-#EXTINF:-1 group-title="少儿",广州少儿
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzse
+#EXTINF:-1 group-title="少儿",嘉佳卡通
+http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
 #EXTINF:-1 group-title="少儿",金鹰卡通
 http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8
 #EXTINF:-1 group-title="少儿",优漫卡通
@@ -469,8 +485,6 @@ http://stream.huaihai.tv/xwzh/sd/live.m3u8
 http://live-wx.wifiwx.com/wxtv4/sd/live.m3u8
 #EXTINF:-1 group-title="安徽",安徽卫视HD
 http://ivi.bupt.edu.cn/hls/ahhd.m3u8
-#EXTINF:-1 group-title="黑龙江",黑龙江卫视HD
-http://ivi.bupt.edu.cn/hls/hljhd.m3u8
 #EXTINF:-1 group-title="河北",河北卫视
 http://weblive.hebtv.com/live/hbws_bq/index.m3u8
 #EXTINF:-1 group-title="河北",河北经济
