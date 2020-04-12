@@ -1,0 +1,3 @@
+
+.content-width {MARGIN: auto;WIDTH: 600px;}
+.content-width img{MAX-WIDTH: 100%!important;HEIGHT: auto!important;width:expression(this.width > 600 ? "600px" : this.width)!important;}
