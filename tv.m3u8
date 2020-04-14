@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="广东",广州综合
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzzh
+http://aplay.gztv.com/sec/zhonghe.m3u8
 #EXTINF:-1 group-title="广东",广东新闻
 http://s5117133.m.awhost.cn/dl/gd.php?id=xwpd
 #EXTINF:-1 group-title="广东",广东公共
@@ -9,22 +9,18 @@ http://s5117133.m.awhost.cn/dl/gd.php?id=ggpd
 http://s5117133.m.awhost.cn/dl/gd.php?id=tvs2
 #EXTINF:-1 group-title="广东",广东珠江
 http://s5117133.m.awhost.cn/dl/gd.php?id=zjpd
+#EXTINF:-1 group-title="广东",广州新闻
+http://aplay.gztv.com/sec/xinwen.m3u8
+#EXTINF:-1 group-title="广东",广州影视
+http://aplay.gztv.com/sec/yingshi.m3u8
 #EXTINF:-1 group-title="广东",广东影视
 http://s5117133.m.awhost.cn/dl/gd.php?id=tvs4
-#EXTINF:-1 group-title="广东",广州新闻
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzxw
-#EXTINF:-1 group-title="广东",广州影视
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzys
-#EXTINF:-1 group-title="广东",广州生活
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzsh
 #EXTINF:-1 group-title="广东",广东国际
 http://s5117133.m.awhost.cn/dl/gd.php?id=gjpd
 #EXTINF:-1 group-title="广东",广东综艺
 http://s5117133.m.awhost.cn/dl/gd.php?id=4K
 #EXTINF:-1 group-title="广东",广东少儿
 http://s5117133.m.awhost.cn/dl/gd.php?id=tvs5
-#EXTINF:-1 group-title="广东",广东卫视
-http://s5117133.m.awhost.cn/dl/gd.php?id=gdws
 #EXTINF:-1 group-title="广东",广东卫视
 http://112.17.40.140/PLTV/88888888/224/3221226225/index.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
@@ -39,14 +35,10 @@ http://112.17.40.140/PLTV/88888888/224/3221226510/index.m3u8
 http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
 #EXTINF:-1 group-title="广东",高尔夫
 http://szlive.grtn.cn/grfpd/sd/live.m3u8?_upt=f6e809921583830189
-#EXTINF:-1 group-title="广东",广州法治
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzfz
 #EXTINF:-1 group-title="广东",深圳卫视
 http://ivi.bupt.edu.cn/hls/szhd.m3u8
 #EXTINF:-1 group-title="广东",潮州公共
 http://live.zscz0768.com/live/ggpd.m3u8
-#EXTINF:-1 group-title="港澳台",有线新闻台
-https://ottproxy2.mott.tv/livehls:cmi/MOB-SCC/01.m3u8
 #EXTINF:-1 group-title="港澳台",有线新闻台
 https://ottproxy2.mott.tv/livehls:cmi/MOB-SCC/03.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰香港
@@ -69,14 +61,8 @@ http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 #EXTINF:-1 group-title="港澳台",星空卫视
 rtmp://58.200.131.2:1935/livetv/startv
-#EXTINF:-1 group-title="港澳台",澳门1
-http://61.244.22.4/ch3/ch3.live/playelist.m3u8
-#EXTINF:-1 group-title="港澳台",澳门微电影
-http://61.244.22.4/ch3/ch3.live/chunklist_w1228316132.m3u8
 #EXTINF:-1 group-title="港澳台",澳门有线一台
 http://202.175.127.77/live/show/ch1/index.m3u8
-#EXTINF:-1 group-title="港澳台",信吉电视
-http://220.130.241.203:1935/sjtv/livestream/chunklist_w1048671923.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
@@ -155,8 +141,6 @@ http://117.156.28.21/PLTV/88888888/224/3221225904/index.m3u8
 http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 #EXTINF:-1 group-title="4K专区",纯享4k
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/index.m3u8
-#EXTINF:-1 group-title="体育",广州竞赛
-http://player.200877926.top/17/gd/gztvm3u8.php?id=gzjs
 #EXTINF:-1 group-title="体育",五星体育
 http://117.156.28.21/PLTV/88888888/224/3221225603/index.m3u8
 #EXTINF:-1 group-title="体育",劲爆体育
@@ -175,64 +159,10 @@ https://download-t.zhixueyun.com:443/default/M00/00/00/01-GZQYFH01.mp4
 https://download-t.zhixueyun.com/default/M00/00/00/02-GRFHZS02.mp4
 #EXTINF:-1 group-title="疫情直播",居家防护
 https://download-t.zhixueyun.com/default/M00/00/00/03-JJFH03.mp4
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_贺岁影院
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_haolaiwudapian_1080p_t10/c16_lb_haolaiwudapian_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_豆瓣高分
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_wuxingyingyuan_1080p_t10/c15_lb_wuxingyingyuan_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_老年剧场
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_laonianjuchang_1080p_t10/c15_lb_laonianjuchang_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_青春剧场
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_weizhangzhe_1080p_t10/c15_lb_weizhangzhe_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_家庭剧场
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_jiatingjuchang_1080p_t10/c15_lb_jiatingjuchang_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_抗战剧场
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_kangzhanjuchang_1080p_t10/c15_lb_kangzhanjuchang_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_热播电视剧
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_reboju_1080p_t10/c15_lb_reboju_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_历史秘闻
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_lishimiwen_1080p_t10/c15_lb_lishimiwen_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_动物兄弟
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_yingshijinqu_1080p_t10/c16_lb_yingshijinqu_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_怀旧动画
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_huanjiudongman_1080p_t10/c15_lb_huanjiudongman_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_动作电影
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_dongzuodianying_1080p_t10/c16_lb_dongzuodianying_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_黑帮电影
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_heibangdianying_1080p_t10/c16_lb_heibangdianying_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺_喜剧电影
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_xijudianying_1080p_t10/c16_lb_xijudianying_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺电影-成龙
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_jingdianguangpian_1080p_t10/c15_lb_jingdianguangpian_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺电影-神探狄仁杰
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_shentandirenjie_1080p_t10/c16_lb_shentandirenjie_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺电影-怀旧剧场
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_huaijiujuchang_1080p_t10/c16_lb_huaijiujuchang_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺电影-电影大片
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_dianyingjingxuan_1080p_t10/c15_lb_dianyingjingxuan_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺电影-经典重温
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_jingdianjuchang_1080p_t10/c16_lb_jingdianjuchang_1080p_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺专区",爱奇艺电影-周末影院
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_fengxiaogang_1080p_t10/c16_lb_fengxiaogang_1080p_t10.m3u8
-#EXTINF:-1 group-title="网络频道",华数_MC_阿阳历险记
-http://hls-ott-zhibo.wasu.tv/live/435/index.m3u8
 #EXTINF:-1 group-title="网络频道",华数_种草吧麻麻
 http://hls-ott-zhibo.wasu.tv/live/452/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_造物集
-http://hls-ott-zhibo.wasu.tv/live/180/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_时装秀
-http://hls-ott-zhibo.wasu.tv/live/303/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_野小叶
-http://hls-ott-zhibo.wasu.tv/live/385/index.m3u8
 #EXTINF:-1 group-title="网络频道",华数_BBC系列
 http://hls-ott-zhibo.wasu.tv/live/394/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_历史解密
-http://hls-ott-zhibo.wasu.tv/live/369/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_科教人文
-http://hls-ott-zhibo.wasu.tv/live/391/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_大国时代
-http://hls-ott-zhibo.wasu.tv/live/390/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_热血抗战
-http://hls-ott-zhibo.wasu.tv/live/353/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
 http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
@@ -317,10 +247,6 @@ http://live.cgtn.com/1000/prog_index.m3u8
 http://live.cgtn.com/1000f/prog_index.m3u8
 #EXTINF:-1 group-title="央视",CGTN西语频道
 http://live.cgtn.com/1000e/prog_index.m3u8
-#EXTINF:-1 group-title="央视",CGTN阿语频道
-http://live.cgtn.com/1000a/prog_index.m3u8
-#EXTINF:-1 group-title="央视",CGTN俄语频道
-http://live.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1 group-title="央视",CGTN纪录频道
 http://live.cgtn.com/1000d/prog_index.m3u8
 #EXTINF:-1 group-title="央视",CCTV17
@@ -395,18 +321,20 @@ http://ivi.bupt.edu.cn/hls/sdetv.m3u8
 http://111.12.110.81:6610/000000001000/7341476808603780321/1.m3u8?channel-id=ystenlive&Contentid=7341476808603780321&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=e15b57852d9cd94f58b9ccb1755d812821vv&usergroup=g21077200000&version=1.0&owaccmark=7341476808603780321&owchid=ystenlive&owsid=4493204828792189840&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6fKRK7GAM8s7D%2bvkwMK3SOqEA4VgxLdMGzRQx4LjQbnpNG5Yxx8PWi4awKDvN4RIT%2bt59nOe%2fS6tNZ0ayvMsdu&IASHttpSessionId=SLB1152820180727152955665773
 #EXTINF:-1 group-title="少儿",嘉佳卡通
 http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
+#EXTINF:-1 group-title="少儿",卡酷少儿
+http://ivi.bupt.edu.cn/hls/btv10.m3u8
 #EXTINF:-1 group-title="少儿",金鹰卡通
 http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8
 #EXTINF:-1 group-title="少儿",优漫卡通
 http://112.17.40.140/PLTV/88888888/224/3221226172/index.m3u8
 #EXTINF:-1 group-title="少儿",哈哈悦动
 http://112.17.40.140/PLTV/88888888/224/3221226745/index.m3u8
-#EXTINF:-1 group-title="少儿",小马宝莉
-http://hls-ott-zhibo.wasu.tv/live/113/index.m3u8
-#EXTINF:-1 group-title="少儿",大头儿子
-http://baiducdnct.inter.iqiyi.com/tslive/c16_lb_datouerzi_1080p_t10/c16_lb_datouerzi_1080p_t10.m3u8
-#EXTINF:-1 group-title="少儿",名侦探柯南
-http://baiducdnct.inter.iqiyi.com/tslive/c15_lb_mingzhentankenan_1080p_t10/c15_lb_mingzhentankenan_1080p_t10.m3u8
+#EXTINF:-1 group-title="少儿",南京少儿
+http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
+#EXTINF:-1 group-title="少儿",河北少儿科教
+http://weblive.hebtv.com/live/hbse_bq/index.m3u8
+#EXTINF:-1 group-title="少儿",福州少儿
+http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
 #EXTINF:-1 group-title="上海",东方卫视
 http://112.17.40.140/PLTV/88888888/224/3221226621/index.m3u8
 #EXTINF:-1 group-title="浙江",浙江卫视
