@@ -6,10 +6,6 @@
 广东珠江,http://s5117133.m.awhost.cn/dl/gd.php?id=zjpd
 广州新闻,http://aplay.gztv.com/sec/xinwen.m3u8
 广州影视,http://aplay.gztv.com/sec/yingshi.m3u8
-广州法治,https://aplays.gztv.com/sec/jingji.m3u8?auth_key=1586742864-0-0-efec2b7830616ac90da298fe4e1f18d6
-广州竞赛,https://aplays.gztv.com/sec/jingsai.m3u8?auth_key=1586742978-0-0-9d35133efe4af0bdf8bb8f260effa29a
-广州少儿,https://aplays.gztv.com/sec/shaoer.m3u8?auth_key=1586743031-0-0-50895baf2f2c9306204461f81a8406b7
-广州生活,https://aplays.gztv.com/sec/shenghuo.m3u8?auth_key=1586743083-0-0-b510de9a1b8b6e0d97c556f6bf702214
 广东影视,http://s5117133.m.awhost.cn/dl/gd.php?id=tvs4
 广东国际,http://s5117133.m.awhost.cn/dl/gd.php?id=gjpd
 广东综艺,http://s5117133.m.awhost.cn/dl/gd.php?id=4K
@@ -90,11 +86,6 @@ BesTV4K,http://117.148.187.37/PLTV/88888888/224/3221226718/index.m3u8
 居家防护,https://download-t.zhixueyun.com/default/M00/00/00/03-JJFH03.mp4
 网络频道
 华数_种草吧麻麻,http://hls-ott-zhibo.wasu.tv/live/452/index.m3u8
-华数_时装秀,http://hls-ott-zhibo.wasu.tv/live/303/index.m3u8
-华数_BBC系列,http://hls-ott-zhibo.wasu.tv/live/394/index.m3u8
-华数_历史解密,http://hls-ott-zhibo.wasu.tv/live/369/index.m3u8
-华数_科教人文,http://hls-ott-zhibo.wasu.tv/live/391/index.m3u8
-华数_大国时代,http://hls-ott-zhibo.wasu.tv/live/390/index.m3u8
 央视
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 CCTV1,http://ivi.bupt.edu.cn/hls/cctv1.m3u8
@@ -180,7 +171,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 山东教育,http://111.12.110.81:6610/000000001000/7341476808603780321/1.m3u8?channel-id=ystenlive&Contentid=7341476808603780321&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=e15b57852d9cd94f58b9ccb1755d812821vv&usergroup=g21077200000&version=1.0&owaccmark=7341476808603780321&owchid=ystenlive&owsid=4493204828792189840&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6fKRK7GAM8s7D%2bvkwMK3SOqEA4VgxLdMGzRQx4LjQbnpNG5Yxx8PWi4awKDvN4RIT%2bt59nOe%2fS6tNZ0ayvMsdu&IASHttpSessionId=SLB1152820180727152955665773
 少儿
 嘉佳卡通,http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
-广州少儿,https://aplays.gztv.com/sec/shaoer.m3u8?auth_key=1586743031-0-0-50895baf2f2c9306204461f81a8406b7
 卡酷少儿,http://ivi.bupt.edu.cn/hls/btv10.m3u8
 金鹰卡通,http://112.17.40.146/PLTV/88888888/224/3221226190/index.m3u8
 优漫卡通,http://112.17.40.146/PLTV/88888888/224/3221226172/index.m3u8
@@ -188,7 +178,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 南京少儿,http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
 河北少儿科教,http://weblive.hebtv.com/live/hbse_bq/index.m3u8
 福州少儿,http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
-小马宝莉,http://hls-ott-zhibo.wasu.tv/live/113/index.m3u8
 上海
 东方卫视,http://112.17.40.146/PLTV/88888888/224/3221226621/index.m3u8
 浙江
