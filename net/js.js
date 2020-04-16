@@ -78,8 +78,8 @@ function browserRedirect() {
     
 var now = -1;
 var resLength = 0;
-var thisSearch = 'https://www.baidu.com/s?wd=';
-var thisSearchIcon = '/imgage/logo.jpg';
+var thisSearch = 'https://mijisou.com/?q=';
+var thisSearchIcon = '/imgage/logo_6.jpg';
 var storage = window.localStorage;
 if(!storage.stopHot){
     storage.stopHot = true
@@ -189,11 +189,7 @@ $(function(){
 	 name: '秘迹',
       img: './images/logo_6.jpg',
       url: 'https://mijisou.com/?q='
-	},{
-      name: '百度',
-      img: './images/logo.jpg',
-      url: 'https://www.baidu.com/s?wd='
-    }, {
+	}, {
       name: '谷歌',
       img: './images/logo_2.jpg',
       url: 'https://www.google.com/search?q='
@@ -202,7 +198,7 @@ $(function(){
       img: './images/logo_3.jpg',
       url: 'https://cn.bing.com/search?q='
     }, {
-      name: '好搜',
+      name: '360',
       img: './images/logo_4.jpg',
       url: 'https://www.so.com/s?q='
     }, {
