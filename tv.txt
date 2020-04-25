@@ -1,11 +1,8 @@
 广东
-广州综合,http://aplay.gztv.com/sec/zhonghe.m3u8
 广东新闻,http://s5117133.m.awhost.cn/dl/gd.php?id=xwpd
 广东公共,http://s5117133.m.awhost.cn/dl/gd.php?id=ggpd
 南方卫视,http://s5117133.m.awhost.cn/dl/gd.php?id=tvs2
 广东珠江,http://s5117133.m.awhost.cn/dl/gd.php?id=zjpd
-广州新闻,http://aplay.gztv.com/sec/xinwen.m3u8
-广州影视,http://aplay.gztv.com/sec/yingshi.m3u8
 广东影视,http://s5117133.m.awhost.cn/dl/gd.php?id=tvs4
 广东国际,http://s5117133.m.awhost.cn/dl/gd.php?id=gjpd
 广东综艺,http://s5117133.m.awhost.cn/dl/gd.php?id=4K
@@ -68,6 +65,7 @@ NewTV超级电影,http://112.50.243.8/PLTV/88888888/224/3221225804/1.m3u8
 NewTV超级体育,http://112.50.243.8/PLTV/88888888/224/3221225803/1.m3u8
 NewTV超级综艺,http://112.50.243.8/PLTV/88888888/224/3221225801/1.m3u8
 4K专区
+黑帮大片,https://js.hls.huya.com/huyalive/30765679-2523417522-10837995731143360512-2777068634-10057-A-0-1_1200.m3u8
 CHC高清电影,http://ivi.bupt.edu.cn/hls/chchd.m3u8
 CHC动作电影,http://117.156.28.57/PLTV/88888888/224/3221225847/index.m3u8
 IPTV5+,http://117.156.28.21/PLTV/88888888/224/3221225904/index.m3u8
@@ -96,7 +94,6 @@ CCTV3,http://ivi.bupt.edu.cn/hls/cctv3.m3u8
 CCTV3,http://183.207.249.14/PLTV/3/224/3221225588/index.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
-CCTV5,http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8
 CCTV5+,http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
 CCTV6,http://cctvcnch5c.v.wscdns.com/live/cctv6_2/index.m3u8
 CCTV6,http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8

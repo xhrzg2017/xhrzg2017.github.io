@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="广东",广州综合
-http://aplay.gztv.com/sec/zhonghe.m3u8
 #EXTINF:-1 group-title="广东",广东新闻
 http://s5117133.m.awhost.cn/dl/gd.php?id=xwpd
 #EXTINF:-1 group-title="广东",广东公共
@@ -9,10 +7,6 @@ http://s5117133.m.awhost.cn/dl/gd.php?id=ggpd
 http://s5117133.m.awhost.cn/dl/gd.php?id=tvs2
 #EXTINF:-1 group-title="广东",广东珠江
 http://s5117133.m.awhost.cn/dl/gd.php?id=zjpd
-#EXTINF:-1 group-title="广东",广州新闻
-http://aplay.gztv.com/sec/xinwen.m3u8
-#EXTINF:-1 group-title="广东",广州影视
-http://aplay.gztv.com/sec/yingshi.m3u8
 #EXTINF:-1 group-title="广东",广东影视
 http://s5117133.m.awhost.cn/dl/gd.php?id=tvs4
 #EXTINF:-1 group-title="广东",广东国际
@@ -22,15 +16,15 @@ http://s5117133.m.awhost.cn/dl/gd.php?id=4K
 #EXTINF:-1 group-title="广东",广东少儿
 http://s5117133.m.awhost.cn/dl/gd.php?id=tvs5
 #EXTINF:-1 group-title="广东",广东卫视
-http://112.17.40.140/PLTV/88888888/224/3221226225/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226225/index.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
-http://112.17.40.140/PLTV/88888888/224/3221226585/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226585/index.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
 http://ivi.bupt.edu.cn/hls/gdhd.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
 http://ivi.bupt.edu.cn/hls/gdtv.m3u8
 #EXTINF:-1 group-title="广东",广东卫视
-http://112.17.40.140/PLTV/88888888/224/3221226510/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226510/index.m3u8
 #EXTINF:-1 group-title="广东",嘉佳卡通
 http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
 #EXTINF:-1 group-title="广东",高尔夫
@@ -46,7 +40,7 @@ http://qlive.fengshows.cn/live720p/PHK.flv
 #EXTINF:-1 group-title="港澳台",凤凰香港
 http://183.207.249.35/PLTV/3/224/3221226975/2020215104547.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰中文
-http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226368/index.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰中文
 http://qlive.fengshows.cn/live720p/PCC.flv
 #EXTINF:-1 group-title="港澳台",凤凰中文
@@ -56,7 +50,7 @@ http://223.82.250.72/live/fhchinese/1.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰资讯
 http://qlive.fengshows.cn/live720p/PIN.flv
 #EXTINF:-1 group-title="港澳台",凤凰资讯
-http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226491/index.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰资讯
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 #EXTINF:-1 group-title="港澳台",星空卫视
@@ -68,61 +62,61 @@ http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 group-title="移动IPTV直播&回看",3D频道
-http://112.17.40.140/PLTV/88888888/224/3221226475/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226475/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",纪录片-1
-http://112.17.40.140/PLTV/88888888/224/3221226360/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226360/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",纪录片-2
-http://112.17.40.140/PLTV/88888888/224/3221226606/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226606/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",求索科学
-http://112.17.40.140/PLTV/88888888/224/3221226608/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226608/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",求索记录
-http://112.17.40.140/PLTV/88888888/224/3221226610/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226610/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",欧美电影
-http://112.17.40.140/PLTV/88888888/224/3221226176/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226176/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",黑莓电影
-http://112.17.40.140/PLTV/88888888/224/3221226755/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226755/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",黑莓电竞
-http://112.17.40.140/PLTV/88888888/224/3221226724/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226724/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",四海钓鱼
-http://112.17.40.140/PLTV/88888888/224/3221226533/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226533/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NEWTV动作电影
 http://112.17.40.147/PLTV/88888888/224/3221226747/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV爱情喜剧 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226660/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226660/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV搏击 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226737/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226737/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV潮妈辣婆 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226666/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226666/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV动作电影 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226747/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226747/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV古装剧场 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226753/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226753/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV海外剧场 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226662/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226662/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV家庭剧场 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226642/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226642/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV健康有约 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226757/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226757/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV金牌综艺 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226749/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226749/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV惊悚悬疑 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226656/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226656/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV精品大剧 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226668/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226668/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV精品记录 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226763/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226763/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV军旅剧场 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226682/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226682/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV军事评论 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226658/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226658/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV明星大片 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226751/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226751/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV农业致富 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226664/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226664/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV炫舞未来 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226817/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226817/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV中国功夫 FHD
-http://112.17.40.140/PLTV/88888888/224/3221226759/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226759/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV超级电视剧
 http://112.50.243.8/PLTV/88888888/224/3221225806/1.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV超级电影
@@ -131,6 +125,8 @@ http://112.50.243.8/PLTV/88888888/224/3221225804/1.m3u8
 http://112.50.243.8/PLTV/88888888/224/3221225803/1.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",NewTV超级综艺
 http://112.50.243.8/PLTV/88888888/224/3221225801/1.m3u8
+#EXTINF:-1 group-title="4K专区",黑帮大片
+https://js.hls.huya.com/huyalive/30765679-2523417522-10837995731143360512-2777068634-10057-A-0-1_1200.m3u8
 #EXTINF:-1 group-title="4K专区",CHC高清电影
 http://ivi.bupt.edu.cn/hls/chchd.m3u8
 #EXTINF:-1 group-title="4K专区",CHC动作电影
@@ -161,8 +157,6 @@ https://download-t.zhixueyun.com/default/M00/00/00/02-GRFHZS02.mp4
 https://download-t.zhixueyun.com/default/M00/00/00/03-JJFH03.mp4
 #EXTINF:-1 group-title="网络频道",华数_种草吧麻麻
 http://hls-ott-zhibo.wasu.tv/live/452/index.m3u8
-#EXTINF:-1 group-title="网络频道",华数_BBC系列
-http://hls-ott-zhibo.wasu.tv/live/394/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
 http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
@@ -181,8 +175,6 @@ http://183.207.249.14/PLTV/3/224/3221225588/index.m3u8
 http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
 #EXTINF:-1 group-title="央视",CCTV4
 http://ivi.bupt.edu.cn/hls/cctv4.m3u8
-#EXTINF:-1 group-title="央视",CCTV5
-http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV5+
 http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
 #EXTINF:-1 group-title="央视",CCTV6
@@ -240,7 +232,7 @@ http://111.63.117.13:6060/030000001000/G_CCTV-15/G_CCTV-15.m3u8?
 #EXTINF:-1 group-title="央视",CGTN
 http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 #EXTINF:-1 group-title="央视",CGTN
-http://112.17.40.140/PLTV/88888888/224/3221226314/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226314/index.m3u8
 #EXTINF:-1 group-title="央视",CGTNNEWS
 http://live.cgtn.com/1000/prog_index.m3u8
 #EXTINF:-1 group-title="央视",CGTN法语频道
@@ -254,7 +246,7 @@ http://ivi.bupt.edu.cn/hls/cctv17hd.m3u8
 #EXTINF:-1 group-title="数字付费",CCTV新科动漫
 http://cctvtxyh5ca.liveplay.myqcloud.com/live/xinkedongman_2_hd.m3u8
 #EXTINF:-1 group-title="数字付费",CCTV4K
-http://112.17.40.140/PLTV/88888888/224/3221226758/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226758/index.m3u8
 #EXTINF:-1 group-title="数字付费",CCTV4K
 http://117.148.187.83/PLTV/88888888/224/3221226758/index.m3u8
 #EXTINF:-1 group-title="数字付费",CCTV兵器科技频道
@@ -274,7 +266,7 @@ http://live.hcs.cmvideo.cn/wd_r3/cnr/faxianzhilv/1000/01.m3u8?msisdn=E86F61904DF
 #EXTINF:-1 group-title="数字付费",CCTV世界地理频道
 http://live.hcs.cmvideo.cn/ws_v/2018/sjdl/sjdl450/350/01.m3u8?msisdn=E86F61904DF815A5CC1B31921C362BD6&mdspid=&spid=699004&netType=0&sid=2200018840&pid=2028597799&timestamp=20200111215634&Channel_ID=H5_&ProgramID=623338083&ParentNodeID=-99&assertID=2200018840&client_ip=61.160.247.210&SecurityKey=20200111215634&promotionId=&mvid=&mcid=&mpid=&playurlVersion=SJ-H1-0.0.3&userid=&jmhm=&videocodec=h264&oaid=&mtv_session=41fb004b9250bf26c957e56c51585441&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=815c666f00198bbbc2d742be93656710
 #EXTINF:-1 group-title="数字付费",高尔夫网球
-http://112.17.40.140/PLTV/88888888/224/3221226402/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226402/index.m3u8
 #EXTINF:-1 group-title="北京",北京卫视
 http://ivi.bupt.edu.cn/hls/btv1hd.m3u8
 #EXTINF:-1 group-title="北京",北京卫视
@@ -324,11 +316,11 @@ http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
 #EXTINF:-1 group-title="少儿",卡酷少儿
 http://ivi.bupt.edu.cn/hls/btv10.m3u8
 #EXTINF:-1 group-title="少儿",金鹰卡通
-http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226190/index.m3u8
 #EXTINF:-1 group-title="少儿",优漫卡通
-http://112.17.40.140/PLTV/88888888/224/3221226172/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226172/index.m3u8
 #EXTINF:-1 group-title="少儿",哈哈悦动
-http://112.17.40.140/PLTV/88888888/224/3221226745/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226745/index.m3u8
 #EXTINF:-1 group-title="少儿",南京少儿
 http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
 #EXTINF:-1 group-title="少儿",河北少儿科教
@@ -336,9 +328,9 @@ http://weblive.hebtv.com/live/hbse_bq/index.m3u8
 #EXTINF:-1 group-title="少儿",福州少儿
 http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
 #EXTINF:-1 group-title="上海",东方卫视
-http://112.17.40.140/PLTV/88888888/224/3221226621/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226621/index.m3u8
 #EXTINF:-1 group-title="浙江",浙江卫视
-http://112.17.40.140/PLTV/88888888/224/3221226619/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226619/index.m3u8
 #EXTINF:-1 group-title="福建",福州影视
 http://live.zohi.tv/video/s10001-yspd-2/index.m3u8
 #EXTINF:-1 group-title="福建",福州生活
@@ -364,13 +356,13 @@ http://cstvpull.live.wscdns.com/live/xiamenyidong.flv
 #EXTINF:-1 group-title="湖南",湖南卫视
 http://ivi.bupt.edu.cn/hls/hunanhd.m3u8
 #EXTINF:-1 group-title="湖南",湖南卫视
-http://112.17.40.140/PLTV/88888888/224/3221226553/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226553/index.m3u8
 #EXTINF:-1 group-title="湖南",湖南卫视
-http://112.17.40.140/PLTV/88888888/224/3221226569/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226569/index.m3u8
 #EXTINF:-1 group-title="湖南",湖南卫视
-http://112.17.40.140/PLTV/88888888/224/3221226615/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226615/index.m3u8
 #EXTINF:-1 group-title="湖南",金鹰纪实
-http://112.17.40.140/PLTV/88888888/224/3221226831/index.m3u8
+http://112.17.40.146/PLTV/88888888/224/3221226831/index.m3u8
 #EXTINF:-1 group-title="陕西",西安新闻
 http://stream2.xiancity.cn/xatv1/sd/live.m3u8
 #EXTINF:-1 group-title="陕西",西安白鸽
