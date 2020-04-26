@@ -1,4 +1,18 @@
 #EXTM3U
+#EXTINF:-1 group-title="广东",广州台HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=1
+#EXTINF:-1 group-title="广东",广州新闻HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=2
+#EXTINF:-1 group-title="广东",广州经济HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=3
+#EXTINF:-1 group-title="广东",广州竞赛HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=4
+#EXTINF:-1 group-title="广东",广州影视HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=5
+#EXTINF:-1 group-title="广东",广州少儿HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=6
+#EXTINF:-1 group-title="广东",广州生活HD
+http://iptv.inewya.com/QQ:494937337/guangdong/guangzhou.php?id=7
 #EXTINF:-1 group-title="广东",广东新闻
 http://s5117133.m.awhost.cn/dl/gd.php?id=xwpd
 #EXTINF:-1 group-title="广东",广东公共
@@ -35,6 +49,144 @@ http://ivi.bupt.edu.cn/hls/szhd.m3u8
 http://live.zscz0768.com/live/ggpd.m3u8
 #EXTINF:-1 group-title="港澳台",有线新闻台
 https://ottproxy2.mott.tv/livehls:cmi/MOB-SCC/03.m3u8
+#EXTINF:-1 group-title="港澳台",TVB翡翠台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=1,http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=9,http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=10
+#EXTINF:-1 group-title="港澳台",香港有线新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=4
+#EXTINF:-1 group-title="港澳台",TVB无线新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=7
+#EXTINF:-1 group-title="港澳台",TVB明珠台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=11
+#EXTINF:-1 group-title="港澳台",TVBJ2
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=12
+#EXTINF:-1 group-title="港澳台",NOW新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=15
+#EXTINF:-1 group-title="港澳台",港台电视32
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=17
+#EXTINF:-1 group-title="港澳台",中天新闻(HD)
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=19
+#EXTINF:-1 group-title="港澳台",TVBS新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=21,msc://CTVBSNews
+#EXTINF:-1 group-title="港澳台",中视新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=24
+#EXTINF:-1 group-title="港澳台",台视新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=25
+#EXTINF:-1 group-title="港澳台",华视新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=26
+#EXTINF:-1 group-title="港澳台",民视新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=27
+#EXTINF:-1 group-title="港澳台",非凡新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=28
+#EXTINF:-1 group-title="港澳台",中视HD
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=34
+#EXTINF:-1 group-title="港澳台",民视HD
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=36
+#EXTINF:-1 group-title="港澳台",华视HD
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=37
+#EXTINF:-1 group-title="港澳台",TVBSHD
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=45
+#EXTINF:-1 group-title="港澳台",TVBS精彩(HD)
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=47
+#EXTINF:-1 group-title="港澳台",中视菁采
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=57
+#EXTINF:-1 group-title="港澳台",中视经典
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=58
+#EXTINF:-1 group-title="港澳台",台视财经
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=61
+#EXTINF:-1 group-title="港澳台",民视第一台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=64
+#EXTINF:-1 group-title="港澳台",民视影剧
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=67
+#EXTINF:-1 group-title="港澳台",东森财经新闻台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=69
+#EXTINF:-1 group-title="港澳台",东森电影台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=70
+#EXTINF:-1 group-title="港澳台",东森幼幼
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=73
+#EXTINF:-1 group-title="港澳台",东森亚洲
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=74
+#EXTINF:-1 group-title="港澳台",公视戏剧台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=77
+#EXTINF:-1 group-title="港澳台",靖洋戏剧台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=86
+#EXTINF:-1 group-title="港澳台",靖洋卡通台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=87
+#EXTINF:-1 group-title="港澳台",靖天國際台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=88
+#EXTINF:-1 group-title="港澳台",靖天卡通台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=89
+#EXTINF:-1 group-title="港澳台",靖天映画
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=91
+#EXTINF:-1 group-title="港澳台",靖天戏剧台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=92
+#EXTINF:-1 group-title="港澳台",靖天电影台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=93
+#EXTINF:-1 group-title="港澳台",靖天育乐台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=94
+#EXTINF:-1 group-title="港澳台",靖天资讯台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=95
+#EXTINF:-1 group-title="港澳台",靖天歡樂台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=96
+#EXTINF:-1 group-title="港澳台",靖天日本台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=97
+#EXTINF:-1 group-title="港澳台",HBOHD
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=99
+#EXTINF:-1 group-title="港澳台",好莱坞电影台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=102
+#EXTINF:-1 group-title="港澳台",卫视电影台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=106
+#EXTINF:-1 group-title="港澳台",天映经典
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=113
+#EXTINF:-1 group-title="港澳台",Discovery
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=115
+#EXTINF:-1 group-title="港澳台",动物星球
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=122
+#EXTINF:-1 group-title="港澳台",客家卫视
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=127
+#EXTINF:-1 group-title="港澳台",愛爾達娛樂台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=128
+#EXTINF:-1 group-title="港澳台",ELTV生活英語台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=130
+#EXTINF:-1 group-title="港澳台",i-Fun動漫台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=131
+#EXTINF:-1 group-title="港澳台",BabyFirst
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=132
+#EXTINF:-1 group-title="港澳台",MOMO親子台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=133
+#EXTINF:-1 group-title="港澳台",博斯魅力台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=135
+#EXTINF:-1 group-title="港澳台",博斯高球二台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=137
+#EXTINF:-1 group-title="港澳台",博斯運動一台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=138
+#EXTINF:-1 group-title="港澳台",博斯運動二台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=139
+#EXTINF:-1 group-title="港澳台",博斯網球台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=140
+#EXTINF:-1 group-title="港澳台",博斯無限台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=141
+#EXTINF:-1 group-title="港澳台",智林體育台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=143
+#EXTINF:-1 group-title="港澳台",時尚運動X
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=144
+#EXTINF:-1 group-title="港澳台",亞洲旅遊台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=145
+#EXTINF:-1 group-title="港澳台",FashionOne
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=146
+#EXTINF:-1 group-title="港澳台",龍華卡通台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=148
+#EXTINF:-1 group-title="港澳台",龍華電影台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=149
+#EXTINF:-1 group-title="港澳台",龍華戲劇台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=150
+#EXTINF:-1 group-title="港澳台",龍華偶像台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=151
+#EXTINF:-1 group-title="港澳台",龍華日韓台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=152
+#EXTINF:-1 group-title="港澳台",視納華仁紀實頻道
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=155
+#EXTINF:-1 group-title="港澳台",采昌影劇台
+http://52app.net.cn/proxy.php?vid=iptv2020&tid=wintv&id=156
 #EXTINF:-1 group-title="港澳台",凤凰香港
 http://qlive.fengshows.cn/live720p/PHK.flv
 #EXTINF:-1 group-title="港澳台",凤凰香港
