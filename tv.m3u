@@ -61,6 +61,54 @@ http://202.175.127.77/live/show/ch1/index.m3u8
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",香港卫视HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq.flv
+#EXTINF:-1 group-title="广电网络",CCTV-1HD
+http://cbnlive.cbchot.com/live/yt_cctv1_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-2HD
+http://cbnlive.cbchot.com/live/yt_cctv2_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-4HD
+http://cbnlive.cbchot.com/live/yt_cctv4zhongwenguoji_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-5HD
+http://cbnlive.cbchot.com/live/ty_cctv5_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-6HD
+http://cbnlive.cbchot.com/live/yt_cctv6_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-7HD
+http://cbnlive.cbchot.com/live/yt_cctv7_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-8HD
+http://cbnlive.cbchot.com/live/ty_cctv8_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-9HD
+http://cbnlive.cbchot.com/live/yt_cctv9_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-10HD
+http://cbnlive.cbchot.com/live/yt_cctv10_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-12HD
+http://cbnlive.cbchot.com/live/yt_cctv12_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV-14HD
+http://cbnlive.cbchot.com/live/yt_cctv14_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",4K导视频道
+http://cbnlive.cbchot.com/live/4klocal_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV专区1
+http://cbnlive.cbchot.com/live/yszq1_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV专区2
+http://cbnlive.cbchot.com/live/yszq2_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CCTV专区3
+http://cbnlive.cbchot.com/live/yszq3_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",CHC高清电影
+http://cbnlive.cbchot.com/live/yt_chc_h_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电情感影院
+http://cbnlive.cbchot.com/live/qingganyingyuan_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电华语影院
+http://cbnlive.cbchot.com/live/qingganyingyuan_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电经典剧场
+http://cbnlive.cbchot.com/live/jingdianjuchang_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电记录
+http://cbnlive.cbchot.com/live/jilupian_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电旅游
+http://cbnlive.cbchot.com/live/lvyou_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电卡通
+http://cbnlive.cbchot.com/live/shaoer_test_hd_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电嗨播
+http://cbnlive.cbchot.com/live/haibo_1.m3u8?123
+#EXTINF:-1 group-title="广电网络",中国广电风尚运动
+http://cbnlive.cbchot.com/live/fengshangyundong_1.m3u8?123
 #EXTINF:-1 group-title="移动IPTV直播&回看",3D频道
 http://112.17.40.146/PLTV/88888888/224/3221226475/index.m3u8
 #EXTINF:-1 group-title="移动IPTV直播&回看",纪录片-1
