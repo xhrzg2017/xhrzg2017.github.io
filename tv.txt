@@ -10,7 +10,6 @@
 广东公共,http://s5117133.m.awhost.cn/dl/gd.php?id=ggpd
 广东珠江,http://s5117133.m.awhost.cn/dl/gd.php?id=zjpd
 南方卫视,http://s5117133.m.awhost.cn/dl/gd.php?id=tvs2
-广东影视,http://s5117133.m.awhost.cn/dl/gd.php?id=tvs4
 广东国际,http://s5117133.m.awhost.cn/dl/gd.php?id=gjpd
 广东综艺,http://s5117133.m.awhost.cn/dl/gd.php?id=4K
 广东少儿,http://s5117133.m.awhost.cn/dl/gd.php?id=tvs5
@@ -21,17 +20,13 @@
 广东卫视,http://112.17.40.146/PLTV/88888888/224/3221226510/index.m3u8
 嘉佳卡通,http://s5117133.m.awhost.cn/dl/gd.php?id=jjkt
 高尔夫,http://szlive.grtn.cn/grfpd/sd/live.m3u8?_upt=f6e809921583830189
-深圳卫视,http://ivi.bupt.edu.cn/hls/szhd.m3u8
 潮州公共,http://live.zscz0768.com/live/ggpd.m3u8
 港澳台
 有线新闻台,https://ottproxy2.mott.tv/livehls:cmi/MOB-SCC/03.m3u8
-凤凰香港,http://qlive.fengshows.cn/live720p/PHK.flv
 凤凰香港,http://183.207.249.35/PLTV/3/224/3221226975/2020215104547.m3u8
 凤凰中文,http://112.17.40.146/PLTV/88888888/224/3221226368/index.m3u8
-凤凰中文,http://qlive.fengshows.cn/live720p/PCC.flv
 凤凰中文,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
 凤凰中文,http://223.82.250.72/live/fhchinese/1.m3u8
-凤凰资讯,http://qlive.fengshows.cn/live720p/PIN.flv
 凤凰资讯,http://112.17.40.146/PLTV/88888888/224/3221226491/index.m3u8
 凤凰资讯,http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 星空卫视,rtmp://58.200.131.2:1935/livetv/startv
@@ -99,7 +94,6 @@ CCTV3,http://183.207.249.14/PLTV/3/224/3221225588/index.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
 CCTV4,http://ivi.bupt.edu.cn/hls/cctv4.m3u8
 CCTV5+,http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
-CCTV6,http://cctvcnch5c.v.wscdns.com/live/cctv6_2/index.m3u8
 CCTV6,http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
 CCTV6,http://ivi.bupt.edu.cn/hls/cctv6.m3u8
 CCTV6,http://223.110.243.139/PLTV/3/224/3221225548/index.m3u8
@@ -115,7 +109,6 @@ CCTV10,http://cctvcnch5c.v.wscdns.com/live/cctv10_2/index.m3u8
 CCTV10,http://ivi.bupt.edu.cn/hls/cctv11.m3u8
 CCTV11,http://cctvcnch5c.v.wscdns.com/live/cctv11_2/index.m3u8
 CCTV12,http://ivi.bupt.edu.cn/hls/cctv12.m3u8
-CCTV12,http://cctvcnch5c.v.wscdns.com/live/cctv12_2/index.m3u8
 CCTV12,http://223.110.245.172/PLTV/3/224/3221225556/index.m3u8
 CCTV13,http://ivi.bupt.edu.cn/hls/cctv13.m3u8
 CCTV13,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225599/index.m3u8
@@ -208,8 +201,6 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 西安影视,http://stream2.xiancity.cn/xatv4/sd/live.m3u8
 西安健康,http://stream2.xiancity.cn/xatv5/sd/live.m3u8
 湖北
-孝感新闻综合,http://xiaogan.live.cjyun.org/video/s10139-xg/index.m3u8
-孝感公共频道,http://xiaogan.live.cjyun.org/video/s10139-shpd/index.m3u8
 黄冈新闻频道,http://huanggang.live.cjyun.org/video/s10120-xwzh.m3u8
 黄冈公共频道,http://huanggang.live.cjyun.org/video/s10120-xwgg.m3u8
 江苏
@@ -233,6 +224,23 @@ BTV新闻,http://ivi.bupt.edu.cn/hls/btv9.m3u8
 河北少儿科教,http://weblive.hebtv.com/live/hbse_bq/index.m3u8
 河北公共,http://weblive.hebtv.com/live/hbgg_bq/index.m3u8
 河北农民,http://weblive.hebtv.com/live/nmpd_bq/index.m3u8
+华北科技学院
+CCTV6高清,http://tv.ncist.edu.cn:280/cctv6hd/playlist.m3u8
+CCTV7高清,http://tv.ncist.edu.cn:280/cctv7hd/playlist.m3u8
+CCTV8高清,http://tv.ncist.edu.cn:280/cctv8hdd/playlist.m3u8
+CCTV9高清,http://tv.ncist.edu.cn:280/cctv9hd/playlist.m3u8
+CCTV10高清,http://tv.ncist.edu.cn:280/cctv10hd/playlist.m3u8
+CCTV12高清,http://tv.ncist.edu.cn:280/cctv12hd/playlist.m3u8
+冬奥纪实高清,http://tv.ncist.edu.cn:280/bjjshd/playlist.m3u8
+北京卫视高清,http://tv.ncist.edu.cn:280/bjwshd/playlist.m3u8
+天津卫视高清,http://tv.ncist.edu.cn:280/tjwshd/playlist.m3u8
+湖北卫视高清,http://tv.ncist.edu.cn:280/hubeiwshd/playlist.m3u8
+CCTV12高清,http://tv.ncist.edu.cn:281/live/cctv12hd.flv
+天津卫视高清,http://tv.ncist.edu.cn:281/live/tjwshd.flv
+恩山论坛
+CCTV11 8M1080,http://39.135.250.71/huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226057/00000001000000060000000000000497_mdn_1.smil
+CCTV15 8M1080,http://39.135.250.70/huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226055/00000001000000060000000000000501.smil
+湖南茶频道 8M1080,http://39.135.250.76/huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226058/99180001000000060000000000000415.smil
 日本
 0テしNEWS24,https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8
 直播中国
