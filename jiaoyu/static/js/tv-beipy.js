@@ -15,8 +15,7 @@ function play() {
 		var tittext = document.getElementById("tittext");
 		//1,create ajax核心对象：
 		var xhr = getxhr();
-		//2,以post的方式与服务器建立连接；
-		xhr.open("post", "data/title.php", true);
+		//2,以post的方式与服务器建立连接；
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 		//3,发送一个http请求:
 		xhr.send("titurl=" + rul);
