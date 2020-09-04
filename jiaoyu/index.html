@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
 		<title>教育视频下载站</title>
 		<meta name="keywords" content="优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,全网视频解析,VIP在线解析,视频VIP在线解析,VIP视频在线解析" />
 		<meta name="description" content="为您提供各大视频网站教学解析服务。包括优酷VIP解析，爱奇艺VIP解析，腾讯VIP解析，乐视VIP解析，芒果VIP解析等解析服务，8通道高速VIP解析，全网视频流畅观看，无任何限制。" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<link rel="stylesheet" href="static/css/bootstrap.css" />
-		<script type="text/javascript" src="static/js/jquery.js"></script>
-		<script type="text/javascript" src="static/js/bootstrap.js"></script>
-		<script type="text/javascript" src="static/js/tv-beipy.js" /></script>
+		<link rel="stylesheet" href="./css/bootstrap.css" />
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.js"></script>
+		<script type="text/javascript" src="./js/tv-beipy.js" /></script>
 		<!--微博引入关注插件-->
-		<script src="static/js/wb.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" href="static/css/style.css" />
+		<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="./css/style.css" />
 		<!--浏览器标签ico-->
 		<link rel="shortcut icon" href="../favicon.ico" />
 		<!--书签标签-->
@@ -22,24 +21,18 @@
 		<meta name="apple-mobile-web-app-title" content="教学视频">
 		<!--苹果桌面图标-->
 		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://xhrzg2017.github.io/vip/static/picture/tvlogo.png">
-		<script language='javascript' src='static/js/zh.js'></script>
+		<script language='javascript' src='./js/zh.js'></script>
 	</head>
-
 	<body>
-
-		
-		<!--视频box区域-->
 		<div class="container-fluid video-box">
 			<div class="container ">
 				<div class="tit-name">
-					<span>正在播放视频: 感谢您使用云解析服务</span>
-				
+					<span>正在播放:</span>
+					<h1 id="tittext">感谢使用云解析</h1>
 					<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>
 	<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a>
 				</div>
-              			<iframe id="palybox" src="./jx" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true">></iframe>
-
-
+				<iframe id="palybox" src="https://z1.m1907.cn/?jx=http://v.youku.com/v_show/id_XMjcxMjY5NjM1Ng==.html" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
 
 				<div class="url-box">
 					<div class="input-group">
@@ -87,45 +80,22 @@
 					<br>切勿相信视频在的广告，广告与本站无利益关系！</p>
 					</span>
 				</div>
+				<div class="guanggaoBox"></div>
 			</div>
 		</div>
-				
-
 		<div class="container-fluid logo-box">
 			<div class="container ">
-				<!--<script src='static/js/2d199ae75a634354b755db36a2ddb4c3.js'></script>-->
-				</div>
-				</div>
-<style>
-	#right_bottom{width:163px;height:313px;position:fixed;bottom:0;right:78px;}
-	#right_bottom img{width:100%;height:100%;border-radius:5px;}
-	#right_bottom #fuchuanga{ position: absolute;right: 0px;top: 0; background: rgba(0, 0, 0, 0.48); color: #FFF;font-size: 14px;padding: 5px 16px;text-decoration: none;border-radius: 4px;cursor: pointer;}
-	#right_bottom span{position: absolute;left: 10px;top: 10;font-size:13px;}
-</style>
-
-<script>
-	$("#right_bottom a").on('click',function(){
-		$("#right_bottom").remove();
-	});
-	var time = 60;
-	var closeAd = setInterval(function(){
-		if(time==0){
-			$("#right_bottom").remove();
-			clearInterval(closeAd);
-		}
-		$("#right_bottom span").html(time + " 秒后自动关闭");
-		time--;
-	},1000)
-</script>
-
+				
+			</div>
+		</div>
 		<!--平台logo	-->
 		<div class="container-fluid logo-box">
 			<div class="container ">
 				<div class="row">
-					<div class="col-lg-12"><b><h1 style="font-size:18px;padding-top:10px">教学视频解析</h1></b><br />					仅用于播放下载教学视频，请勿用于其它用途！！
+					<div class="col-lg-12">
 						<div class="title-tit">
-							<h4>全网教学视频解析</h4>
-							<p>敬请关注，近期将开放支持更多平台。</p>
+							<h4>现已支持网站</h4>
+							<p>解析已支持26家视频网站，10家音乐网站，更多惊喜请自行探索。</p>
 						</div>
 					</div>
 				</div>
@@ -134,42 +104,42 @@
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://vip.iqiyi.com/" target="_blank" title="爱奇艺VIP" rel="nofollow">
-								<img class="img-responsive" src="static/picture/iqiyilogo.png" />
+								<img class="img-responsive" src="img/logo/iqiyilogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://film.qq.com/" target="_blank" title="腾讯VIP中心" rel="nofollow">
-								<img class="img-responsive" src="static/picture/qqlogo.png" />
+								<img class="img-responsive" src="img/logo/qqlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://vip.youku.com/" target="_blank" title="优酷VIP中心" rel="nofollow">
-								<img class="img-responsive" src="static/picture/youkulogo.png" />
+								<img class="img-responsive" src="img/logo/youkulogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://www.mgtv.com/vip/" target="_blank" title="芒果VIP中心" rel="nofollow">
-								<img class="img-responsive" src="static/picture/hunantvlogo.png" />
+								<img class="img-responsive" src="img/logo/hunantvlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://yuanxian.le.com/" target="_blank" title="乐视VIP中心" rel="nofollow">
-								<img class="img-responsive" src="static/picture/letvlogo.png" />
+								<img class="img-responsive" src="img/logo/letvlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://vip.tudou.com" target="_blank" title="土豆VIP中心" rel="nofollow">
-								<img class="img-responsive" src="static/picture/tudoulogo.png" />
+								<img class="img-responsive" src="img/logo/tudoulogo.png" />
 							</a>
 						</div>
 					</div>
@@ -181,42 +151,42 @@
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.baofeng.com/" target="_blank" title="暴风会员" rel="nofollow">
-								<img class="img-responsive" src="static/picture/baofeng.png" />
+								<img class="img-responsive" src="img/logo/baofeng.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://vip.1905.com/" target="_blank" title="1905电影网视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/1905logo.png" />
+								<img class="img-responsive" src="img/logo/1905logo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://vip.kankan.com/" target="_blank" title="天天看看" rel="nofollow">
-								<img class="img-responsive" src="static/picture/kankan.png" />
+								<img class="img-responsive" src="img/logo/kankan.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://www.pptv.com/" target="_blank" title="PPTV聚力" rel="nofollow">
-								<img class="img-responsive" src="static/picture/pptv.png" />
+								<img class="img-responsive" src="img/logo/pptv.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.yinyuetai.com/" target="_blank" title="音悦台MV" rel="nofollow">
-								<img class="img-responsive" src="static/picture/yinyuetailogo.png" />
+								<img class="img-responsive" src="img/logo/yinyuetailogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.56.com/" target="_blank" title="56视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/56logo.png" />
+								<img class="img-responsive" src="img/logo/56logo.png" />
 							</a>
 						</div>
 					</div>
@@ -229,42 +199,42 @@
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.fun.vip" target="_blank" title="风行视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/fengxing.png" />
+								<img class="img-responsive" src="img/logo/fengxing.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://movie.ku6.com/" target="_blank" title="酷6视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/ku6logo.png" />
+								<img class="img-responsive" src="img/logo/ku6logo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://vip.wasu.cn/" target="_blank" title="WASU华数视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/wasulogo.png" />
+								<img class="img-responsive" src="img/logo/wasulogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://video.sina.com.cn/" target="_blank" title="新浪视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/sinalogo.png" />
+								<img class="img-responsive" src="img/logo/sinalogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="https://film.sohu.com/" target="_blank" title="搜狐视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/sohulogo.png" />
+								<img class="img-responsive" src="img/logo/sohulogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.baomihua.com/" target="_blank" title="爆米花" rel="nofollow">
-								<img class="img-responsive" src="static/picture/baomihualogo.png" />
+								<img class="img-responsive" src="img/logo/baomihualogo.png" />
 							</a>
 						</div>
 					</div>
@@ -275,47 +245,47 @@
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a target="_blank" title="看看新闻网视频">
-								<img class="img-responsive" src="static/picture/kankannewslogo.png" rel="nofollow"/>
+								<img class="img-responsive" src="img/logo/kankannewslogo.png" rel="nofollow"/>
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a target="_blank" title="糖豆视频">
-								<img class="img-responsive" src="static/picture/tangdoulogo.png" rel="nofollow"/>
+								<img class="img-responsive" src="img/logo/tangdoulogo.png" rel="nofollow"/>
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://tv.cctv.com/" target="_blank" title="央视网" rel="nofollow">
-								<img class="img-responsive" src="static/picture/cntvlogo.png" />
+								<img class="img-responsive" src="img/logo/cntvlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://www.acfun.cn/" target="_blank" title="Ac弹幕网" rel="nofollow">
-								<img class="img-responsive" src="static/picture/acfun.png" />
+								<img class="img-responsive" src="img/logo/acfun.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.bilibili.com/" target="_blank" title="哔哩哔哩" rel="nofollow">
-								<img class="img-responsive" src="static/picture/bilibili.png" />
+								<img class="img-responsive" src="img/logo/bilibili.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.aipai.com/" target="_blank" title="爱拍视频" rel="nofollow">
-								<img class="img-responsive" src="static/picture/aipai.png" />
+								<img class="img-responsive" src="img/logo/aipai.png" />
 							</a>
 						</div>
 					</div>
 				</div>
-
+				<!--第三行结束-->
 				<!---->
 			</div>
 		</div>
@@ -334,104 +304,30 @@
 				</div>
 			</div>
 		</div>
-	
-
-
-
-			﻿<a data-type="3" data-tmpl="210x220" data-tmplid="181" data-rd="2" data-style="2" data-border="1" href="#"></a>
-<footer class="footer">
+			<footer class="footer">
 	<div class="branding">
-		
-		<!--友情链接结束-->
 		<!--居中部分-->
 		<hr style="display: block;height: 1px;margin-bottom: 10px;background-color: #4f4f4f;    margin-top: 0px;margin-bottom: 20px;border: 0;"/>
 		<div class="container footer-tit">
-	
-			<p>本站仅提供视频解析Web服务，并不提供任何影视资源，不收集用户信息。<br/>若本站服务侵犯到贵司权利，请联系下方邮箱,我们会及时处理和回复。</p>
+			<p>本站提供的最新电影和电视剧资源均系收集于各大视频网站,本站只提供web页面服务,并不提供影片资源存储,也不参与录制、上传。<br/>若本站收录的节目无意侵犯了贵司版权，请给网页底部邮箱地址来信,我们会及时处理和回复,谢谢。</p>
 			
-			<p>管理员邮箱：<a href="mailto:xhrzg2017@gmail.com" class="scroll">xhrzg2017@gmail.com</a> </p>
-			<p>Copyright&nbsp;&copy;&nbsp;2019&nbsp; 各版权方 版权所有</p>
-		<!--统计展示-->
-				
+			<p>管理员邮箱：<a href="mailto:xhrzg2017@gmail.com" class="scroll">站长邮箱</a><a class="foot-tt" href="http://www.miitbeian.gov.cn" ><img style="vertical-align: middle;" src="img/beian.png"/></a>&nbsp; </p>
+			<p>Copyright&nbsp;&copy;&nbsp;2017~2020&nbsp;	<a href="https://xhrzg2017.github.io/" target="_blank" style="color:#888;">广州电脑初哥工作室</a>版权所有 当前版本号：V2.6</p>
+			<p class="toot-tto"></p>
 		</div>
 	</div>
  </footer>
- 
 <!--侧滑-->
 <section class="ch">
-       <div class="rollbar-weibo" title="新浪微博关注一下我">
-		<a class="rollbar-weibo" href="https://weibo.com/GZGPS" target="https://weibo.com/12212" rel="nofollow"></a>
+	<div class="rollbar-weibo" title="新浪微博关注一下我">
+		<a class="rollbar-weibo" href="https://weibo.com/GZGPS" target="_blank"></a>
 	</div>
-
-	<div class="rollbar-item" title="返回顶部"><a class="rollbar-top"  href="#top"></a></div>
+	<div class="rollbar-item" title="返回顶部">
+		<a class="rollbar-top"  href="#top"></a>
+	</div>
 </section>
-
 <section class="ch1">
-</section>
-
-<script type="text/javascript">
-		//判断F12审查元素
-function fuckyou() {
-	window.close(); //关闭当前窗口(防抽)
-	window.location = "about:blank"; //将当前窗口跳转置空白页
-}
-
-function ck() {
-	console.profile();
-	console.profileEnd();
-	//我们判断一下profiles里面有没有东西，如果有，肯定有人按F12了，没错！！
-	if(console.clear) {
-		console.clear()
-	};
-	if(typeof console.profiles == "object") {
-		return console.profiles.length > 0;
-	}
-}
-
-function hehe() {
-	if((window.console && (console.firebug || console.table && /firebug/i.test(console.table()))) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)) {
-		fuckyou();
-	}
-	if(typeof console.profiles == "object" && console.profiles.length > 0) {
-		fuckyou();
-	}
-}
-hehe();
-window.onresize = function() {
-	if((window.outerHeight - window.innerHeight) > 200)
-		//判断当前窗口内页高度和窗口高度，如果差值大于200，那么呵呵
-		fuckyou();
-}
-</script>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-	
+	</section>
+			<script type="text/javascript" src="js/tv-beipy.js" /></script>
 	</body>
-
 </html>

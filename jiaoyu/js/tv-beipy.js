@@ -1,0 +1,147 @@
+
+//play点击事件
+function play() {
+	var rul = document.getElementById("url").value; //获取input链接
+	if(rul == "") {
+		alert("初哥提示您：请输入链接")
+	} else {
+		var jxApi = document.getElementById("jk"); //获取选择按钮
+		var jxurl = document.getElementById("jk").selectedIndex; //获取选中的
+		var jkv = jxApi.options[jxurl].value; //获取选择接口链接
+		var paly = document.getElementById("palybox"); //获取播放窗口位置
+		paly.src = jkv + rul; //接口赋值
+		//ajax数据传递
+		var tittext = document.getElementById("tittext");
+		//1,create ajax核心对象：
+		var xhr = getxhr();
+		//2,以post的方式与服务器建立连接；
+		xhr.open("post", "http://xhrzg2017.unaux.com/vip/data/title.php", true);
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		//3,发送一个http请求:
+		xhr.send("titurl=" + rul);
+		console.log(xhr.readyState);
+		//获取服务器状态码
+		xhr.onreadystatechange = function() {
+			console.log(xhr.readyState)
+			console.log(xhr.status)
+			if(xhr.readyState == 4 && xhr.status == 200) {
+				tittext.innerHTML = xhr.responseText; //获取服务器响应数据
+			}
+		}
+
+		function getxhr() {
+			var xhr = null;
+			if(window.XMLHttpRequest) {
+				xhr = new XMLHttpRequest();
+			} else {
+				xhr = new ActiveXObject("Microsoft.XMLHttp");
+			}
+			return xhr;
+		}
+	}
+}
+function banquan() {
+	var htmlzs = "PCEtLQpIaX7jgIDimIXimIXimIXimIXimIXimIUK44CA44CA4peL4piF4piF4piF4piF4piF4piF4piF4peLICAK44CA44CA4piF4piF44CA44CA44CAIOOAgOKYheKYhSAgCuOAgOKYheKYheOAgOKIqeOAgOOAgOKIqeOAgCDimIXimIUgIArjgIDimIXimIXjgIDjgIDjgIDil4/jgIAg44CA4piF4piFICAK44CA4piF4piF44CA44CA44CA44CA44CA44CA4piF4piFICAK44CA44CA4piF4piF44CA44CA44CA44CA4piF4piFICAK44CA44CA44CA44CA4piF4piF4piF4piF44CA44CA44CA4pei4pekICAK44CA44CA4pWt44CA44Ch44Ch44Ch44Ch44CA4pWu4pWxICAK44CA44CA44CA4oCU4pSY4oCU4pSY4pSU4oCU4pSU4oCUCiAgICAgICAgICDniYjmnYPlvZLlsZ7vvJrlub/lt57nlLXohJHliJ3lk6Xlt6XkvZzlrqQKICAgICAgICAgIOaPj+i/sO+8muWFrOebiuaAp+WFjei0ueS4i+i9veaVmeWtpuinhumikee9keermQotLT4="
+	var base = new Base64();
+	var result2 = base.decode(htmlzs);
+	console.log(result2);
+	$("html").before(result2);
+};
+banquan();
+
+function Base64() {
+	_keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+	this.encode = function (input) {
+		var output = "";
+		var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+		var i = 0;
+		input = _utf8_encode(input);
+		while (i < input.length) {
+			chr1 = input.charCodeAt(i++);
+			chr2 = input.charCodeAt(i++);
+			chr3 = input.charCodeAt(i++);
+			enc1 = chr1 >> 2;
+			enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+			enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+			enc4 = chr3 & 63;
+			if (isNaN(chr2)) {
+				enc3 = enc4 = 64;
+			} else if (isNaN(chr3)) {
+				enc4 = 64;
+			}
+			output = output +
+			_keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+			_keyStr.charAt(enc3) + _keyStr.charAt(enc4);
+		}
+		return output;
+	}
+	this.decode = function (input) {
+		var output = "";
+		var chr1, chr2, chr3;
+		var enc1, enc2, enc3, enc4;
+		var i = 0;
+		input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+		while (i < input.length) {
+			enc1 = _keyStr.indexOf(input.charAt(i++));
+			enc2 = _keyStr.indexOf(input.charAt(i++));
+			enc3 = _keyStr.indexOf(input.charAt(i++));
+			enc4 = _keyStr.indexOf(input.charAt(i++));
+			chr1 = (enc1 << 2) | (enc2 >> 4);
+			chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+			chr3 = ((enc3 & 3) << 6) | enc4;
+			output = output + String.fromCharCode(chr1);
+			if (enc3 != 64) {
+				output = output + String.fromCharCode(chr2);
+			}
+			if (enc4 != 64) {
+				output = output + String.fromCharCode(chr3);
+			}
+		}
+		output = _utf8_decode(output);
+		return output;
+	}
+ 
+	_utf8_encode = function (string) {
+		string = string.replace(/\r\n/g,"\n");
+		var utftext = "";
+		for (var n = 0; n < string.length; n++) {
+			var c = string.charCodeAt(n);
+			if (c < 128) {
+				utftext += String.fromCharCode(c);
+			} else if((c > 127) && (c < 2048)) {
+				utftext += String.fromCharCode((c >> 6) | 192);
+				utftext += String.fromCharCode((c & 63) | 128);
+			} else {
+				utftext += String.fromCharCode((c >> 12) | 224);
+				utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+				utftext += String.fromCharCode((c & 63) | 128);
+			}
+ 
+		}
+		return utftext;
+	}
+ 
+	_utf8_decode = function (utftext) {
+		var string = "";
+		var i = 0;
+		var c = c1 = c2 = 0;
+		while ( i < utftext.length ) {
+			c = utftext.charCodeAt(i);
+			if (c < 128) {
+				string += String.fromCharCode(c);
+				i++;
+			} else if((c > 191) && (c < 224)) {
+				c2 = utftext.charCodeAt(i+1);
+				string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+				i += 2;
+			} else {
+				c2 = utftext.charCodeAt(i+1);
+				c3 = utftext.charCodeAt(i+2);
+				string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+				i += 3;
+			}
+		}
+		return string;
+	}
+}
+Base64();
