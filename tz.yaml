@@ -5,58 +5,77 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 电脑初哥整理&共享, server: 127.0.0.1, port: 6666, type: vmess, uuid: e7c650ff-6093-4e9e-add9-1e769a53c54c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 DE_643, server: 89.163.212.34, port: 443, type: vmess, uuid: e5a59c58-d055-428e-b191-95fb5dcb7539, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 89.163.212.34}}
-  - {name: GB_1175, server: 185.207.176.221, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name: GB_1176, server: 185.207.176.221, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/c27821f.fm.apple.com:16708, ws-headers: {Host: 185.207.176.221}}
-  - {name: 🇭🇰 HK_1209, server: 119.28.90.112, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
-  - {name: 🇭🇰 HK_1210, server: 129.226.175.145, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d3.51jump.co}}
-  - {name: 🇭🇰 HK_1212, server: 119.28.13.185, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
-  - {name: 🇭🇰 HK_1213, server: 119.28.94.73, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
-  - {name: 🇭🇰 HK_1214, server: 119.28.93.48, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
-  - {name: 🇭🇰 HK_1215, server: 119.28.59.212, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
-  - {name: 🇭🇰 HK_1217, server: 129.226.175.80, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d3.51jump.co}}
-  - {name: 🇭🇰 HK_1218, server: 129.226.226.242, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d3.51jump.co}}
-  - {name: 🇭🇰 HK_1220, server: aws.spyun.xyz, port: 443, type: vmess, uuid: e00f2166-8473-4b89-a6b6-2935f486c64a, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 JP_1500, server: ff5c0fb.rc.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name: 🇯🇵 JP_1501, server: ff5c0fb.ra.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name: 🇯🇵 JP_1504, server: ff5c0fb.re.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name: 🇳🇱 NL_1795, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
-  - {name: 🇳🇱 NL_1796, server: 154.84.1.253, port: 443, type: vmess, uuid: 57e24a59-8af7-4946-bb1f-c6af791ada9e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
-  - {name: 🇸🇬 SG_2158, server: 101.32.202.174, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d1.51jump.co}}
-  - {name: 🇸🇬 SG_2160, server: 101.32.191.195, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d2.51jump.co}}
-  - {name: 🇨🇳 TW_2237, server: ff5c0fb.ra.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name: 🇺🇲 US_2954, server: xey.wrxjys.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 US_2956, server: ahvuxfq.oqnqrysa.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇺🇲 US_2959, server: aga-jp.ide.wtf, port: 11011, type: vmess, uuid: cccf242d-5da6-41ac-9ea3-9f78e7bb8c58, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
-  - {name: 🇺🇲 US_2960, server: 104.24.102.20, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 US_2962, server: 172.67.29.99, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: baqihero.3505891325.workers.dev}}
-  - {name: 🇺🇲 US_2969, server: free.yangxifang.tk, port: 443, type: vmess, uuid: 5a2de888-4686-4b11-af2c-d98a5115188e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free.yangxifang.tk}}
-  - {name: 🇺🇲 US_2972, server: 63.141.232.69, port: 57043, type: vmess, uuid: b647a7e0-978b-4af4-b208-a23e10b63403, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 63.141.232.69}}
-  - {name: 🇺🇲 US_2973, server: 158.247.216.175, port: 80, type: vmess, uuid: f97a3a3d-63e8-4fe3-864a-b3606a8ae77d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 US_2975, server: 158.247.214.83, port: 3345, type: vmess, uuid: 7c3b8df0-b5e6-43b1-ae92-49b14b982fe3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 US_2980, server: 104.24.103.20, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 US_2981, server: aga.nayun.xyz, port: 21000, type: vmess, uuid: f18bbb6f-b820-4ffd-8851-ee60aeba2573, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /4965, ws-headers: {Host: us.nayun.xyz}}
-  - {name: 🇺🇲 US_3004, server: 104.18.57.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: 🇺🇲 US_3007, server: aga-hk.ide.wtf, port: 80, type: vmess, uuid: 6d3992a2-c297-456c-a834-201064a41ce4, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /download/speedtest/100mb.bin, ws-headers: {Host: gov.cn}}
-  - {name: 🇺🇲 US_3027, server: 47.242.61.173, port: 443, type: vmess, uuid: 91a8fe5c-2030-49b0-b6f0-a2bdf1a50ebe, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /91a8fe5c, ws-headers: {Host: 47.242.61.173}}
-  - {name: 🇺🇲 US_3029, server: 75.2.112.5, port: 11011, type: vmess, uuid: cccf242d-5da6-41ac-9ea3-9f78e7bb8c58, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
-  - {name: 🇺🇲 US_3032, server: 172.67.219.122, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 US_3036, server: 99.83.181.186, port: 11011, type: vmess, uuid: cccf242d-5da6-41ac-9ea3-9f78e7bb8c58, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
-  - {name: 🇺🇲 US_3037, server: 104.18.56.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: 🇺🇲 US_3038, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: 🇺🇲 US_3044, server: 173.82.116.178, port: 443, type: vmess, uuid: 3dc860d4-2195-48da-bddf-68ba1bfb9577, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /h4c, ws-headers: {Host: 173.82.116.178}}
-  - {name: 🇺🇲 US_3049, server: 66.181.45.169, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 66.181.45.169}}
-  - {name: 🇺🇲 US_3050, server: 155.94.184.179, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 155.94.184.179}}
-  - {name: 🇺🇲 US_3052, server: 107.172.103.231, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.172.103.231}}
-  - {name: 🇺🇲 US_3054, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: 🇺🇲 US_3055, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: 🇺🇲 US_3056, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: 🇺🇲 US_3064, server: 23.225.9.214, port: 443, type: vmess, uuid: 98065ec0-c22d-4109-907b-9768ec851fa1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.3244708.xyz}}
-  - {name: 🇺🇲 US_3066, server: 45.58.149.7, port: 443, type: vmess, uuid: 0f805666-2985-4a9d-85d0-00c9932fcd96, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.87900.xyz}}
-  - {name: 🇺🇲 US_3067, server: 104.18.135.208, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇺🇲 US_3070, server: 45.58.145.197, port: 443, type: vmess, uuid: 3842b7eb-31c3-458f-b265-74b171729c95, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.78592.xyz}}
-  - {name: 🇺🇲 US_3072, server: 104.18.47.77, port: 443, type: vmess, uuid: d31deba4-a686-40ff-b8d5-59a6349effb0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ws/, ws-headers: {Host: download.china666.ml}}
+  - {name: 电脑初哥整理&共享, server: www.baidu.com, port: 443, type: vmess, uuid: e46583c7-2e01-4e1c-b3ac-5a86b4446cb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: 网路复杂部分节点会0kb/s, server: www.baidu.com, port: 443, type: vmess, uuid: ef2f0a78-4e14-441f-894d-fb5a38704ffc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇩🇪 德鸡2vm-cf反代, server: bbs.xhrzg2017.workers.dev, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-hk1 cdn反代, server: icook.hk, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-hk2 cdn反代, server: shopify.com, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-tw cdn反代, server: icook.tw, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-圣何塞 cdn反代, server: cogentco.com, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-cf cdn反代, server: cloudflare.com, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-移动 cdn反代, server: 104.16.0.2, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-联通 cdn反代, server: 104.19.75.103, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: gentle-recipe-e81a.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-电信 cdn反代, server: 104.28.210.193, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: gentle-recipe-e81a.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-通用 cdn反代, server: 162.159.208.2, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.workers.dev}}
+  - {name: 🇩🇪 德鸡2vm-移动 紧急-cdn, server: 104.16.0.2, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-联通 紧急-cdn, server: 104.19.75.103, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-电信 紧急-cdn, server: 104.28.210.193, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-通用 紧急-cdn, server: 162.159.208.2, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-tw 紧急-cdn, server: icook.tw, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-hk 紧急-cdn, server: icook.hk, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-hk2 紧急-cdn, server: shopify.com, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 德鸡2vm-圣何塞 紧急-cdn, server: cogentco.com, port: 443, type: vmess, uuid: ae4d33c8-0498-45fa-94dd-c6238d3f6d35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /1sRrqf, ws-headers: {Host: bbs.xhrzg2017.xyz}}
+  - {name: 🇩🇪 DE_643, server: 89.163.212.34, port: 443, type: vmess, uuid: e5a59c58-d055-428e-b191-95fb5dcb7539, alterId: 16, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 89.163.212.34}}
+  - {name: GB_1175, server: 185.207.176.221, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
+  - {name: GB_1176, server: 185.207.176.221, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /s/c27821f.fm.apple.com:16708, ws-headers: {Host: 185.207.176.221}}
+  - {name: 🇭🇰 HK_1209, server: 119.28.90.112, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
+  - {name: 🇭🇰 HK_1210, server: 129.226.175.145, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d3.51jump.co}}
+  - {name: 🇭🇰 HK_1212, server: 119.28.13.185, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
+  - {name: 🇭🇰 HK_1213, server: 119.28.94.73, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
+  - {name: 🇭🇰 HK_1214, server: 119.28.93.48, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
+  - {name: 🇭🇰 HK_1215, server: 119.28.59.212, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d4.51jump.co}}
+  - {name: 🇭🇰 HK_1217, server: 129.226.175.80, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d3.51jump.co}}
+  - {name: 🇭🇰 HK_1218, server: 129.226.226.242, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d3.51jump.co}}
+  - {name: 🇭🇰 HK_1220, server: aws.spyun.xyz, port: 443, type: vmess, uuid: e00f2166-8473-4b89-a6b6-2935f486c64a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_1500, server: ff5c0fb.rc.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
+  - {name: 🇯🇵 JP_1501, server: ff5c0fb.ra.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
+  - {name: 🇯🇵 JP_1504, server: ff5c0fb.re.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
+  - {name: 🇳🇱 NL_1795, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
+  - {name: 🇳🇱 NL_1796, server: 154.84.1.253, port: 443, type: vmess, uuid: 57e24a59-8af7-4946-bb1f-c6af791ada9e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
+  - {name: 🇸🇬 SG_2158, server: 101.32.202.174, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d1.51jump.co}}
+  - {name: 🇸🇬 SG_2160, server: 101.32.191.195, port: 80, type: vmess, uuid: 13d7c37e-922f-61ad-636a-9ae45f2a78d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /usmawjdp, ws-headers: {Host: cdn163v3.d2.51jump.co}}
+  - {name: 🇨🇳 TW_2237, server: ff5c0fb.ra.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
+  - {name: 🇺🇲 US_2954, server: xey.wrxjys.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
+  - {name: 🇺🇲 US_2956, server: ahvuxfq.oqnqrysa.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
+  - {name: 🇺🇲 US_2959, server: aga-jp.ide.wtf, port: 11011, type: vmess, uuid: cccf242d-5da6-41ac-9ea3-9f78e7bb8c58, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
+  - {name: 🇺🇲 US_2960, server: 104.24.102.20, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
+  - {name: 🇺🇲 US_2962, server: 172.67.29.99, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: baqihero.3505891325.workers.dev}}
+  - {name: 🇺🇲 US_2969, server: free.yangxifang.tk, port: 443, type: vmess, uuid: 5a2de888-4686-4b11-af2c-d98a5115188e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free.yangxifang.tk}}
+  - {name: 🇺🇲 US_2972, server: 63.141.232.69, port: 57043, type: vmess, uuid: b647a7e0-978b-4af4-b208-a23e10b63403, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 63.141.232.69}}
+  - {name: 🇺🇲 US_2973, server: 158.247.216.175, port: 80, type: vmess, uuid: f97a3a3d-63e8-4fe3-864a-b3606a8ae77d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 US_2975, server: 158.247.214.83, port: 3345, type: vmess, uuid: 7c3b8df0-b5e6-43b1-ae92-49b14b982fe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 US_2980, server: 104.24.103.20, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
+  - {name: 🇺🇲 US_2981, server: aga.nayun.xyz, port: 21000, type: vmess, uuid: f18bbb6f-b820-4ffd-8851-ee60aeba2573, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /4965, ws-headers: {Host: us.nayun.xyz}}
+  - {name: 🇺🇲 US_3004, server: 104.18.57.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: 🇺🇲 US_3007, server: aga-hk.ide.wtf, port: 80, type: vmess, uuid: 6d3992a2-c297-456c-a834-201064a41ce4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /download/speedtest/100mb.bin, ws-headers: {Host: gov.cn}}
+  - {name: 🇺🇲 US_3027, server: 47.242.61.173, port: 443, type: vmess, uuid: 91a8fe5c-2030-49b0-b6f0-a2bdf1a50ebe, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /91a8fe5c, ws-headers: {Host: 47.242.61.173}}
+  - {name: 🇺🇲 US_3029, server: 75.2.112.5, port: 11011, type: vmess, uuid: cccf242d-5da6-41ac-9ea3-9f78e7bb8c58, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
+  - {name: 🇺🇲 US_3032, server: 172.67.219.122, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
+  - {name: 🇺🇲 US_3036, server: 99.83.181.186, port: 11011, type: vmess, uuid: cccf242d-5da6-41ac-9ea3-9f78e7bb8c58, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
+  - {name: 🇺🇲 US_3037, server: 104.18.56.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: 🇺🇲 US_3038, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: 🇺🇲 US_3044, server: 173.82.116.178, port: 443, type: vmess, uuid: 3dc860d4-2195-48da-bddf-68ba1bfb9577, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /h4c, ws-headers: {Host: 173.82.116.178}}
+  - {name: 🇺🇲 US_3049, server: 66.181.45.169, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 66.181.45.169}}
+  - {name: 🇺🇲 US_3050, server: 155.94.184.179, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 155.94.184.179}}
+  - {name: 🇺🇲 US_3052, server: 107.172.103.231, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 107.172.103.231}}
+  - {name: 🇺🇲 US_3054, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
+  - {name: 🇺🇲 US_3055, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
+  - {name: 🇺🇲 US_3056, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: 🇺🇲 US_3064, server: 23.225.9.214, port: 443, type: vmess, uuid: 98065ec0-c22d-4109-907b-9768ec851fa1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.3244708.xyz}}
+  - {name: 🇺🇲 US_3066, server: 45.58.149.7, port: 443, type: vmess, uuid: 0f805666-2985-4a9d-85d0-00c9932fcd96, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.87900.xyz}}
+  - {name: 🇺🇲 US_3067, server: 104.18.135.208, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
+  - {name: 🇺🇲 US_3070, server: 45.58.145.197, port: 443, type: vmess, uuid: 3842b7eb-31c3-458f-b265-74b171729c95, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.78592.xyz}}
+  - {name: 🇺🇲 US_3072, server: 104.18.47.77, port: 443, type: vmess, uuid: d31deba4-a686-40ff-b8d5-59a6349effb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws/, ws-headers: {Host: download.china666.ml}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -64,6 +83,25 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -122,6 +160,25 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -180,6 +237,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -237,6 +313,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -294,6 +389,25 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -351,6 +465,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -409,6 +542,25 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -483,6 +635,25 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 电脑初哥整理&共享
+      - 网路复杂部分节点会0kb/s
+      - 🇩🇪 德鸡2vm-cf反代
+      - 🇩🇪 德鸡2vm-hk1 cdn反代
+      - 🇩🇪 德鸡2vm-hk2 cdn反代
+      - 🇩🇪 德鸡2vm-tw cdn反代
+      - 🇩🇪 德鸡2vm-圣何塞 cdn反代
+      - 🇩🇪 德鸡2vm-cf cdn反代
+      - 🇩🇪 德鸡2vm-移动 cdn反代
+      - 🇩🇪 德鸡2vm-联通 cdn反代
+      - 🇩🇪 德鸡2vm-电信 cdn反代
+      - 🇩🇪 德鸡2vm-通用 cdn反代
+      - 🇩🇪 德鸡2vm-移动 紧急-cdn
+      - 🇩🇪 德鸡2vm-联通 紧急-cdn
+      - 🇩🇪 德鸡2vm-电信 紧急-cdn
+      - 🇩🇪 德鸡2vm-通用 紧急-cdn
+      - 🇩🇪 德鸡2vm-tw 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk 紧急-cdn
+      - 🇩🇪 德鸡2vm-hk2 紧急-cdn
+      - 🇩🇪 德鸡2vm-圣何塞 紧急-cdn
       - 🇩🇪 DE_643
       - GB_1175
       - GB_1176
@@ -566,6 +737,7 @@ rules:
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
