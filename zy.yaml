@@ -6,9 +6,9 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: cf cdn, server: www.iccok.tw, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
-  - {name: 电信cdn, server: www.digitalocean.com, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
-  - {name: 联通cdn, server: www.cloudflare.com, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
-  - {name: 移动cdn, server: 104.19.45.117, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
+  - {name: 电信cdn, server: 162.159.208.4, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
+  - {name: 联通cdn, server: 104.20.157.6, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
+  - {name: 移动cdn, server: 172.64.32.4, port: 443, type: vmess, uuid: c4d99e05-3409-46ce-88dd-e3a4909bd081, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /syytvws, ws-headers: {Host: tz.xhrzg2017.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
