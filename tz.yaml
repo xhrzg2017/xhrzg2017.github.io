@@ -5,485 +5,901 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2, server: 185.243.57.132, port: 443, type: vmess, uuid: fdb86cbc-c537-4a92-9717-0d4ba26ab9ea, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /dde7fa4/, ws-headers: {Host: dd.199301.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3, server: 104.16.35.88, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4, server: 183.232.228.94, port: 20002, type: vmess, uuid: 88eae028-b237-3be6-bc91-2152fab605b0, alterId: 0, cipher: auto, tls: false}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5, server: 196.244.191.107, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6, server: 196.244.191.107, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8, server: 13.70.33.84, port: 800, type: vmess, uuid: 1425d9be-aa97-3b73-a6c1-a0ccee4cea23, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: t.me/baipiaofuli}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9, server: 141.101.115.3, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10, server: 104.24.96.0, port: 443, type: vmess, uuid: 896a7331-2e47-4f1b-b688-1ceb1c4ae542, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: 1us.liuwei.gq}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11, server: 172.67.37.175, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12, server: 172.67.37.166, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13, server: 91.245.227.135, port: 38166, type: vmess, uuid: 9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.245.227.135}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14, server: 172.67.186.204, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru2.ooxc.cc}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15, server: 104.21.19.155, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru2.ooxc.cc}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17, server: cncn.blackhole02.site, port: 115, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18, server: tw.f01.paopaocloud.cyou, port: 3306, type: vmess, uuid: 16690ad3-b23c-3d4d-b4a0-3790e58f9be1, alterId: 2, cipher: auto, tls: false}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20, server: 120.gzcm.blackhole02.site, port: 235, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.gzcm.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21, server: cncn2.blackhole02.site, port: 212, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn2.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23, server: cncn.blackhole02.site, port: 114, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24, server: xd.shcn2.xlddns.xyz, port: 40419, type: vmess, uuid: 8fa4f2f5-09e4-4605-8e21-b6362fabb8b3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.lite.dingyue404.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25, server: gzcm1.955236.xyz, port: 40419, type: vmess, uuid: 8fa4f2f5-09e4-4605-8e21-b6362fabb8b3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.lite.dingyue404.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26, server: cncn2.blackhole02.site, port: 333, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn2.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27, server: xzcu.955236.xyz, port: 40419, type: vmess, uuid: 8fa4f2f5-09e4-4605-8e21-b6362fabb8b3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.lite.dingyue404.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 94af0550-902b-11eb-b135-1239d0255272, sni: nl-trojan.bonds.id}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31, server: 120.gzcm.blackhole02.site, port: 234, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.gzcm.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35, server: v2-01.ssrsub.one, port: 443, type: vmess, uuid: e4ebbb52-8e14-11eb-a1b2-0050569b1ae9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uCVMAvYp/, ws-headers: {Host: v2-01.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36, server: v2-02.ssrsub.one, port: 443, type: vmess, uuid: eb0dce76-8e14-11eb-88bf-0050569ba043, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /40f76ON9/, ws-headers: {Host: v2-02.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37, server: v2-03.ssrsub.one, port: 443, type: vmess, uuid: 5c10e1ee-8e15-11eb-925a-0050569b59c1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /UPDYmTCB/, ws-headers: {Host: v2-03.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: 62e390de-8e15-11eb-9c3b-0050569bd732, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /grEPa5BQ/, ws-headers: {Host: v2-04.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39, server: v2-05.ssrsub.one, port: 443, type: vmess, uuid: 6b70ab92-8e15-11eb-8d09-0050569ba4a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bMcI61z7/, ws-headers: {Host: v2-05.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: 1a74b206-8ed3-11eb-a0d9-b606fedad7b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dtRg54Nk/, ws-headers: {Host: v2-06.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41, server: v2-07.ssrsub.one, port: 443, type: vmess, uuid: 284219a8-8e17-11eb-bd30-fa86b708c350, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /IG1u60of/, ws-headers: {Host: v2-07.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42, server: v2-08.ssrsub.one, port: 443, type: vmess, uuid: 7a300ffa-8e4d-11eb-aa39-020017004082, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /wGeuRtxH/, ws-headers: {Host: v2-08.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43, server: v2-10.ssrsub.one, port: 443, type: vmess, uuid: 8ad69a36-8d62-11eb-b89e-0016909b35da, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /Mjb6PY9c/, ws-headers: {Host: v2-10.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44, server: v2-11.ssrsub.one, port: 443, type: vmess, uuid: 94c1f72e-8e17-11eb-9490-66040905f3a1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xJsnc23e/, ws-headers: {Host: v2-11.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45, server: v2-12.ssrsub.one, port: 443, type: vmess, uuid: f222f556-8e46-11eb-98dd-020017006edf, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /r5WNusTL/, ws-headers: {Host: v2-12.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46, server: v2-13.ssrsub.one, port: 443, type: vmess, uuid: f725fb0c-8e46-11eb-88ae-02001701c0a1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /qOf1Tgxp/, ws-headers: {Host: v2-13.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: b0bcb658-8e17-11eb-95d8-8f6d20f9e6ad, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jzirCwNY/, ws-headers: {Host: v2-14.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48, server: v2-20.ssrsub.one, port: 443, type: vmess, uuid: 579adc82-8ed3-11eb-95c1-525400efb448, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /AZBR2bes/, ws-headers: {Host: v2-20.ssrsub.one}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49, server: xd.shcn2.xlddns.xyz, port: 41407, type: vmess, uuid: 8fa4f2f5-09e4-4605-8e21-b6362fabb8b3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50, server: cncn.blackhole02.site, port: 134, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51, server: cncn2.blackhole02.site, port: 211, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn2.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52, server: xzcu.955236.xyz, port: 40407, type: vmess, uuid: 8fa4f2f5-09e4-4605-8e21-b6362fabb8b3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53, server: cncn.blackhole02.site, port: 133, type: vmess, uuid: 00e7cc76-8e6a-46e8-b455-6c8d09876dba, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cncn.blackhole02.site}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54, server: cfip.hey.pw, port: 443, type: vmess, uuid: 62af99c3-0874-40a8-bb0c-15708625d2bf, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /iue/l2vesav, ws-headers: {Host: cf.souji.ga}}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55, server: c-us5.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us5.ooxc.cc}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点, server: silver-hk08.straycloud.xyz, port: 207, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: silver-hk08.straycloud.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2, server: silver-jp01.straycloud.xyz, port: 210, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: silver-jp01.straycloud.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3, server: silver-jp03.straycloud.xyz, port: 212, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: silver-jp03.straycloud.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4, server: silver-hk06.straycloud.xyz, port: 205, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: silver-hk06.straycloud.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5, server: 120.209.53.122, port: 60001, type: trojan, password: 1a4ca082}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6, server: silver-jp02.straycloud.xyz, port: 211, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: silver-jp02.straycloud.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7, server: ty1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-2.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8, server: ty1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-3.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9, server: ty1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-1.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10, server: ty2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-5.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11, server: ty2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-1.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12, server: os2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-1.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13, server: os1-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-7.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14, server: os1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-1.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15, server: ty2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-8.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16, server: ty2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-2.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17, server: ty2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-4.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18, server: ty2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-6.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19, server: ty2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-7.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20, server: ty2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-3.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22, server: os1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-4.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24, server: os1-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-5.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26, server: nl1-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: nl1-5.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27, server: v2-07.ssrsub.one, port: 443, type: trojan, password: fc64de17-c250-4c5b-9631-9399f2824cce, sni: v2-07.ssrsub.one}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29, server: tw1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: tw1-1.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30, server: fm1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm1-3.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34, server: os1-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-8.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35, server: os1-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-6.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36, server: os1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-3.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37, server: os2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-4.sstr-api.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38, server: m.64678737946848.xyz, port: 443, type: trojan, password: gbeiyong, sni: m.64678737946848.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39, server: m.64678737946848.xyz, port: 443, type: trojan, password: gabeiyong, sni: m.64678737946848.xyz}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40, server: t11.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t11.ssrsub.one}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41, server: t07.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t07.ssrsub.one}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42, server: v2-07.ssrsub.one, port: 443, type: trojan, password: 893e8efa-73c6-464a-8dfe-4bcbab919722, sni: v2-07.ssrsub.one}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44, server: tuoku8.cf, port: 443, type: trojan, password: sdf4dfw, sni: tuoku8.cf}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45, server: tuoku8.cf, port: 443, type: trojan, password: dsfe4, sni: tuoku8.cf}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46, server: tuoku8.cf, port: 443, type: trojan, password: wq12a, sni: tuoku8.cf}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47, server: 45.130.137.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49, server: 45.130.137.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50, server: 45.130.137.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51, server: 185.212.111.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52, server: 185.99.3.205, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53, server: 185.99.3.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54, server: 185.212.111.6, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55, server: 185.212.111.6, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56, server: 185.212.111.6, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57, server: 185.99.3.205, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58, server: 185.212.111.6, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59, server: 185.99.3.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60, server: 185.212.111.6, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61, server: 185.99.3.212, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62, server: 185.212.111.41, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63, server: 185.212.111.6, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64, server: 185.212.111.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65, server: 185.99.3.144, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66, server: 185.99.3.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67, server: 185.212.111.59, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68, server: 193.9.114.34, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69, server: 185.232.21.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70, server: 5.253.205.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71, server: 58.177.131.223, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72, server: 152.67.196.160, port: 52996, type: vmess, uuid: 19968cfa-4058-4926-b9e9-776bae172966, alterId: 59, cipher: auto, tls: false}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73, server: twa3116.azzico.space, port: 11566, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: twa3116.azzico.pw}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 8bdd2925-7218-314b-987a-dcbb44d09852, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg1322.azzico.pw}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75, server: jm-cm01.haoye.cf, port: 21027, type: vmess, uuid: 98e5cee3-58d2-4911-83eb-fde39f7f6d01, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jm-cm01.haoye.cf}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76, server: cb.loogsom.xyz, port: 443, type: vmess, uuid: bc93fb1c-1a88-4e37-92e3-a9680861ed80, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cb.loogsom.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77, server: jm-cm01.haoye.cf, port: 21011, type: vmess, uuid: 98e5cee3-58d2-4911-83eb-fde39f7f6d01, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jm-cm01.haoye.cf}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78, server: ah-cu01.haoye.cf, port: 50033, type: vmess, uuid: 98e5cee3-58d2-4911-83eb-fde39f7f6d01, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah-cu01.haoye.cf}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79, server: jm-cm01.haoye.cf, port: 21029, type: vmess, uuid: 98e5cee3-58d2-4911-83eb-fde39f7f6d01, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jm-cm01.haoye.cf}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81, server: ah-cu01.haoye.cf, port: 50032, type: vmess, uuid: 98e5cee3-58d2-4911-83eb-fde39f7f6d01, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah-cu01.haoye.cf}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82, server: jm-cm01.haoye.cf, port: 21030, type: vmess, uuid: 98e5cee3-58d2-4911-83eb-fde39f7f6d01, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jm-cm01.haoye.cf}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83, server: gzcm02.iplc188.com, port: 10011, type: vmess, uuid: 55659d9f-8d1c-43cb-81c7-023b04c53759, alterId: 1, cipher: auto, tls: false}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84, server: zhongzhuangazhk.xiaobaiyun.me, port: 824, type: vmess, uuid: 3360b056-73d8-3b0c-8d50-6be5e12e6105, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: zhongzhuangazhk.xiaobaiyun.me}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85, server: auto.freev2.top, port: 51246, type: vmess, uuid: a02c25c2-4ec6-44b2-bb02-742d8f572999, alterId: 1, cipher: auto, tls: false}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86, server: l1-aws-jp-06.baipiao.de, port: 80, type: vmess, uuid: 914e9603-3535-3228-96a9-e66fe76bd5b5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-aws-jp-06.baipiao.de}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87, server: L1-aws-kr-05.baipiao.de, port: 80, type: vmess, uuid: 914e9603-3535-3228-96a9-e66fe76bd5b5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: L1-aws-kr-05.baipiao.de}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88, server: s89.snodes.xyz, port: 443, type: vmess, uuid: f77fdcb0-07f4-3c41-8a74-5cf19a5c7a58, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s89.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89, server: s187.snodes.xyz, port: 80, type: vmess, uuid: dd0d7541-f892-388a-a0d3-15d15c173daf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /panel, ws-headers: {Host: s187.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90, server: s89.snodes.xyz, port: 80, type: vmess, uuid: dd0d7541-f892-388a-a0d3-15d15c173daf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /panel, ws-headers: {Host: s89.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91, server: s187.snodes.xyz, port: 443, type: vmess, uuid: dd0d7541-f892-388a-a0d3-15d15c173daf, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s187.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92, server: s187.snodes.xyz, port: 443, type: vmess, uuid: f77fdcb0-07f4-3c41-8a74-5cf19a5c7a58, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s187.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93, server: s187.snodes.xyz, port: 443, type: vmess, uuid: 1826dedd-56c3-3c33-8884-b40639e994ae, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s187.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94, server: s89.snodes.xyz, port: 443, type: vmess, uuid: dd0d7541-f892-388a-a0d3-15d15c173daf, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s89.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95, server: 60.249.3.226, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96, server: ff5c0fb.rb.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97, server: 211.72.35.153, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 211.72.35.153}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98, server: tw.f01.paopaocloud.cyou, port: 3306, type: vmess, uuid: 16690ad3-b23c-3d4d-b4a0-3790e58f9be1, alterId: 2, cipher: auto, tls: false}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99, server: 104.21.19.155, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru2.ooxc.cc}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100, server: a9059bd2261fd7e98.awsglobalaccelerator.com, port: 28516, type: vmess, uuid: 4b850b3e-b19a-3327-a574-067fd593eddb, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: a9059bd2261fd7e98.awsglobalaccelerator.com}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101, server: zf.inssaga2.insss.xyz, port: 80, type: vmess, uuid: e8f815c5-6b2e-4aa2-86a3-535f5947799f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102, server: zf.inssaga2.insss.xyz, port: 664, type: vmess, uuid: e8f815c5-6b2e-4aa2-86a3-535f5947799f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103, server: zf.inssaga2.insss.xyz, port: 889, type: vmess, uuid: e8f815c5-6b2e-4aa2-86a3-535f5947799f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104, server: s43.snodes.xyz, port: 443, type: vmess, uuid: d69e514d-1aec-3c2a-ab28-4a5aca5630ad, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s43.snodes.xyz}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg1322.azzico.pw}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106, server: twa3116.azzico.space, port: 11566, type: vmess, uuid: 8bdd2925-7218-314b-987a-dcbb44d09852, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: twa3116.azzico.pw}}
+  - {name: （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107, server: l1-aws-jp-05.baipiao.de, port: 80, type: vmess, uuid: 914e9603-3535-3228-96a9-e66fe76bd5b5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-aws-jp-05.baipiao.de}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -506,61 +922,113 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 2
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 3
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 4
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 5
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 7
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 8
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 9
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 10
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 11
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 12
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 13
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 14
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 15
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 16
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 17
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 18
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 19
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 20
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 21
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 22
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 23
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 24
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 25
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 26
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 27
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 28
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 29
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 30
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 31
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 32
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 33
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 34
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 35
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 36
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 37
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 38
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 39
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 40
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 41
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 42
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 43
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 44
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 45
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 46
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 47
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 48
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 49
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 50
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 51
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 52
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 53
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 54
-      - （欢迎订阅晓柒科技YouTube频道）3.30高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 2
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 3
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 4
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 5
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 6
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 7
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 8
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 9
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 10
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 11
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 12
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 13
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 14
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 15
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 16
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 17
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 18
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 19
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 20
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 21
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 22
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 23
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 24
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 25
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 26
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 27
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 28
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 29
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 30
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 31
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 32
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 33
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 34
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 35
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 36
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 37
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 38
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 39
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 40
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 41
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 42
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 43
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 44
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 45
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 46
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 47
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 48
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 49
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 50
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 51
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 52
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 53
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 54
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 55
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 56
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 57
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 58
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 59
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 60
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 61
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 62
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 63
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 64
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 65
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 66
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 67
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 68
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 69
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 70
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 71
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 72
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 73
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 74
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 75
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 76
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 77
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 78
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 79
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 80
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 81
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 82
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 83
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 84
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 85
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 86
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 87
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 88
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 89
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 90
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 91
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 92
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 93
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 94
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 95
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 96
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 97
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 98
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 99
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 100
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 101
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 102
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 103
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 104
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 105
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 106
+      - （欢迎订阅晓柒科技YouTube频道）4.08高速节点 107
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2165,6 +2633,8 @@ rules:
  - DOMAIN-SUFFIX,808.tianyaui.cn,🍃 应用净化
  - DOMAIN-SUFFIX,92x.tumblr.com,🍃 应用净化
  - DOMAIN-SUFFIX,a1.itc.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,ad-channel.wikawika.xyz,🍃 应用净化
+ - DOMAIN-SUFFIX,ad-display.wikawika.xyz,🍃 应用净化
  - DOMAIN-SUFFIX,ad.12306.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.3.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.95306.cn,🍃 应用净化
@@ -2468,6 +2938,7 @@ rules:
  - DOMAIN-SUFFIX,bbc.co,🌍 国外媒体
  - DOMAIN-SUFFIX,bbc.co.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,bbc.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,bbc.net.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
@@ -2544,6 +3015,7 @@ rules:
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -2607,7 +3079,7 @@ rules:
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
- - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🌍 国外媒体
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
  - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
@@ -3156,6 +3628,7 @@ rules:
  - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
@@ -3165,6 +3638,7 @@ rules:
  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -3658,7 +4132,6 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
- - DOMAIN-SUFFIX,vmware.com,🎯 全球直连
  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
