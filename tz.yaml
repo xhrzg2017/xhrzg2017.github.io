@@ -1,1049 +1,890 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 207.244.67.149:35294, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 180.149.228.147:33992, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (Youtube频道：工具大师！), server: 156.146.62.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (Youtube频道：工具大师！) 2, server: 194.87.215.57, port: 17219, type: vmess, uuid: b3c1db3d-44df-42ca-8781-10eb527a8417, alterId: 0, cipher: auto, tls: false}
-  - {name: (Youtube频道：工具大师！) 3, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (Youtube频道：工具大师！) 4, server: 91.90.123.171, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (Youtube频道：工具大师！) 5, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (Youtube频道：工具大师！) 6, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (Youtube频道：工具大师！) 7, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: (Youtube频道：工具大师！) 8, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (Youtube频道：工具大师！) 9, server: 5.133.8.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (Youtube频道：工具大师！) 10, server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (Youtube频道：工具大师！) 11, server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (Youtube频道：工具大师！) 12, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (Youtube频道：工具大师！) 13, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (Youtube频道：工具大师！) 14, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (Youtube频道：工具大师！) 15, server: jpzn.sttcloud.xyz, port: 40003, type: vmess, uuid: 9b0b39ca-b594-3b7f-902d-d1344ebf02e7, alterId: 2, cipher: auto, tls: false}
-  - {name: (Youtube频道：工具大师！) 16, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: (Youtube频道：工具大师！) 17, server: 45.125.247.155, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 107.181.166.55:33992, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 176.125.231.29:37588, server: 176.125.231.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 37.120.221.5:31764, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 86.106.137.149:39772, server: 86.106.137.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 37.120.221.5:40093, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 217.138.207.243:31944, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 欧洲(Youtube频道：工具大师！), server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 荷兰(Youtube频道：工具大师！), server: 212.102.35.206, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！), server: 209.216.92.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 31.171.153.163:39772, server: 31.171.153.163, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 207.244.67.149:40093, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 31.171.154.221:33992, server: 31.171.154.221, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 37.120.148.227:33992, server: 37.120.148.227, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 180.149.231.3:31572, server: 180.149.231.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 180.149.228.147:39772, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 31.171.154.219:39772, server: 31.171.154.219, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 207.244.127.118:33998, server: 207.244.127.118, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 91.206.168.26:39772, server: 91.206.168.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 217.138.222.53:35294, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 37.120.148.229:33992, server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: ss.ca.sshmax.net:1443, server: ss.ca.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: r4TeEt5bK0UD}
-  - {name: 🇬🇧 英国(Youtube频道：工具大师！), server: 185.188.61.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 2, server: 185.134.23.40, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 3, server: 185.134.23.40, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 斯洛伐克(Youtube频道：工具大师！), server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 斯洛伐克(Youtube频道：工具大师！) 2, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 斯洛伐克(Youtube频道：工具大师！) 3, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 斯洛伐克(Youtube频道：工具大师！) 4, server: 37.120.221.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 2, server: 66.115.175.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 3, server: 207.244.127.118, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 4, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 5, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 6, server: 207.244.127.118, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 7, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 8, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 9, server: 209.216.92.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 10, server: 154.16.171.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 11, server: 154.16.171.213, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！) 12, server: 173.237.207.30, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 罗马(Youtube频道：工具大师！), server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(Youtube频道：工具大师！) 2, server: 193.29.107.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(Youtube频道：工具大师！) 3, server: 193.29.107.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(Youtube频道：工具大师！) 4, server: 79.110.54.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 罗马(Youtube频道：工具大师！) 5, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 罗马(Youtube频道：工具大师！) 6, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(Youtube频道：工具大师！) 7, server: 185.124.240.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 罗马(Youtube频道：工具大师！) 8, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 拉脱维亚(Youtube频道：工具大师！), server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 拉脱维亚(Youtube频道：工具大师！) 2, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 拉脱维亚(Youtube频道：工具大师！) 3, server: 188.92.78.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 拉脱维亚(Youtube频道：工具大师！) 4, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 拉脱维亚(Youtube频道：工具大师！) 5, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 德国(Youtube频道：工具大师！), server: 185.134.23.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇩🇰 丹麦(Youtube频道：工具大师！), server: 37.120.194.109, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦(Youtube频道：工具大师！) 2, server: 37.120.194.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(Youtube频道：工具大师！) 3, server: 37.120.194.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(Youtube频道：工具大师！) 4, server: 2.58.46.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(Youtube频道：工具大师！) 5, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦(Youtube频道：工具大师！) 6, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 2, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 捷克(Youtube频道：工具大师！), server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 捷克(Youtube频道：工具大师！) 2, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 捷克(Youtube频道：工具大师！) 3, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲(Youtube频道：工具大师！) 3, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲(Youtube频道：工具大师！) 4, server: 5.157.13.101, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲(Youtube频道：工具大师！) 5, server: 37.120.221.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(Youtube频道：工具大师！) 6, server: 207.244.127.118, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(Youtube频道：工具大师！) 7, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(Youtube频道：工具大师！) 8, server: 207.244.127.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 91.90.123.171:40093, server: 91.90.123.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 192.40.59.229:39772, server: 192.40.59.229, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 156.146.33.83:39772, server: 156.146.33.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 173.237.207.30:33148, server: 173.237.207.30, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 209.216.92.3:34815, server: 209.216.92.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 173.237.207.30:32558, server: 173.237.207.30, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 207.244.127.118:40093, server: 207.244.127.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 209.216.92.3:37588, server: 209.216.92.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 98.142.220.37:39772, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 156.146.33.79:39772, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 207.244.84.58:33992, server: 207.244.84.58, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 209.216.92.3:33992, server: 209.216.92.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 172.98.78.227:39772, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 202.143.110.36:33992, server: 202.143.110.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 154.16.93.51:39772, server: 154.16.93.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 45.130.137.3:31944, server: 45.130.137.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 45.130.137.14:37473, server: 45.130.137.14, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 45.130.137.3:33992, server: 45.130.137.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 89.187.168.41:40093, server: 89.187.168.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 185.153.150.63:40093, server: 185.153.150.63, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 185.188.61.35:37588, server: 185.188.61.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 196.244.191.107:38620, server: 196.244.191.107, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 196.244.191.107:40093, server: 196.244.191.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 196.244.191.91:39772, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 196.244.191.107:37588, server: 196.244.191.107, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 196.244.191.35:39772, server: 196.244.191.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Relay_ |17.35Mb, server: t3.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t3.ssrsub.one}
-  - {name: Relay_ |61.06Mb, server: jp-aws.proxypoolv2.tk, port: 443, type: trojan, password: 4c5d43ef-9226-4c01-8e75-5f095ba77a97, sni: jp-aws.proxypoolv2.tk}
-  - {name: Relay_ |34.69Mb, server: jpzn.sttcloud.xyz, port: 40003, type: vmess, uuid: 9b0b39ca-b594-3b7f-902d-d1344ebf02e7, alterId: 2, cipher: auto, tls: false}
-  - {name: Relay_ | 5.18Mb, server: jpc5271.azzico.space, port: 11562, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false}
-  - {name: Relay_ |62.84Mb, server: 362.vpn-4.xyz, port: 99, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /public, ws-headers: {Host: github.com}}
-  - {name: Relay_ |51.78Mb, server: 368.vpn-4.xyz, port: 99, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /public, ws-headers: {Host: github.com}}
-  - {name: Relay_ |40.68Mb, server: v1-aws-jp-02.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-02.tudog.me}}
-  - {name: Relay_ |46.50Mb, server: 363.vpn-4.xyz, port: 99, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /public, ws-headers: {Host: github.com}}
-  - {name: Relay_ |15.16Mb, server: v1-aws-sg-07.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-07.tudog.me}}
-  - {name: Relay_ |18.43Mb, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 91.90.123.115:49339, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 91.90.123.115:48794, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 198.8.92.84:35294, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国w 26, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:35294 2, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国w 13, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国f 10, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:38620, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 美国w 5, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:49396, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇲 美国w 6, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国f 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国w 4, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:38620 2, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 198.8.92.84:35294 3, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:40093, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国f 6, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国(g) 6, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国f 9, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国w 10, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国(g) 8, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国w 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国f 5, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国f 12, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: f 5, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: w 5, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:35294 4, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 198.8.92.84:38742, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇲 美国w 20, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国w 21, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 198.8.92.84:49396 2, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x, server: 13.57.246.196, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇲 美国w 27, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国w 8, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 13, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国w 15, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 15, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 8, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: f 4, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 4, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 195.47.194.42:35294, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 195.47.194.42:33992, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 195.47.194.42:33992 2, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 195.47.194.42:40093, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 195.47.194.42:37588, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 195.47.194.42:31944, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 195.47.194.42:31944 2, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 195.47.194.42:34815, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 66.115.175.37:50168, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国w 32, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /111111.online, ws-headers: {Host: buyvm.proxypool.ga}}
+  - {name: 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: 198.8.92.84:35294 5, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 198.147.22.87:40093, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: g 4, server: us18.xqkj.cloud, port: 1048, type: vmess, uuid: 194f9087-0bbe-4e03-9d25-4d87dfa577b7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us18.xqkj.cloud}}
+  - {name: 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 198.147.22.87:35200, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 198.147.22.87:33998 2, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 198.147.22.87:32558, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 91.90.123.115:49339 2, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 91.90.123.115:48794 2, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 198.8.92.84:35294 6, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国w 26 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:35294 7, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国w 13 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国f 10 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:38620 3, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 美国w 5 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:49396 3, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇲 美国w 6 2, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国f 2 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国w 4 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:38620 4, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 198.8.92.84:35294 8, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:40093 2, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 美国f 6 2, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国(g) 6 2, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国f 9 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国w 10 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国(g) 8 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国w 2 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国f 5 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国f 12 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: f 5 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: w 5 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 198.8.92.84:35294 9, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 198.8.92.84:38742 2, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇲 美国w 20 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国w 21 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 198.8.92.84:49396 4, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2, server: 13.57.246.196, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇲 美国w 27 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国w 8 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 13 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇺🇲 美国w 15 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 15 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 8 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: f 4 2, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇲 美国f 4 2, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 195.47.194.42:35294 2, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 195.47.194.42:33992 3, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 195.47.194.42:33992 4, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 195.47.194.42:40093 2, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 195.47.194.42:37588 2, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 195.47.194.42:31944 3, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 195.47.194.42:31944 4, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 195.47.194.42:34815 2, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 66.115.175.37:50168 2, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇲 美国w 32 2, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /111111.online, ws-headers: {Host: buyvm.proxypool.ga}}
+  - {name: 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: g 25, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
+  - {name: 198.8.92.84:35294 10, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 198.147.22.87:40093 2, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: g 4 2, server: us18.xqkj.cloud, port: 1048, type: vmess, uuid: 194f9087-0bbe-4e03-9d25-4d87dfa577b7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us18.xqkj.cloud}}
+  - {name: 198.147.22.87:33998 3, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 198.147.22.87:35200 2, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇲 美国w 14, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
+  - {name: 198.147.22.87:33998 4, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 198.147.22.87:32558 2, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1066,131 +907,128 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 207.244.67.149:35294
-      - 180.149.228.147:33992
-      - (Youtube频道：工具大师！)
-      - (Youtube频道：工具大师！) 2
-      - (Youtube频道：工具大师！) 3
-      - (Youtube频道：工具大师！) 4
-      - (Youtube频道：工具大师！) 5
-      - (Youtube频道：工具大师！) 6
-      - (Youtube频道：工具大师！) 7
-      - (Youtube频道：工具大师！) 8
-      - (Youtube频道：工具大师！) 9
-      - (Youtube频道：工具大师！) 10
-      - (Youtube频道：工具大师！) 11
-      - (Youtube频道：工具大师！) 12
-      - (Youtube频道：工具大师！) 13
-      - (Youtube频道：工具大师！) 14
-      - (Youtube频道：工具大师！) 15
-      - (Youtube频道：工具大师！) 16
-      - (Youtube频道：工具大师！) 17
-      - 107.181.166.55:33992
-      - 176.125.231.29:37588
-      - 37.120.221.5:31764
-      - 86.106.137.149:39772
-      - 37.120.221.5:40093
-      - 217.138.207.243:31944
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇳🇱 荷兰(Youtube频道：工具大师！)
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 31.171.153.163:39772
-      - 207.244.67.149:40093
-      - 31.171.154.221:33992
-      - 37.120.148.227:33992
-      - 180.149.231.3:31572
-      - 180.149.228.147:39772
-      - 31.171.154.219:39772
-      - 207.244.127.118:33998
-      - 91.206.168.26:39772
-      - 217.138.222.53:35294
-      - 37.120.148.229:33992
-      - ss.ca.sshmax.net:1443
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 🇬🇧 英国(Youtube频道：工具大师！) 2
-      - 🇬🇧 英国(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！)
-      - 斯洛伐克(Youtube频道：工具大师！) 2
-      - 斯洛伐克(Youtube频道：工具大师！) 3
-      - 斯洛伐克(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 2
-      - 🇺🇲 美国(Youtube频道：工具大师！) 3
-      - 🇺🇲 美国(Youtube频道：工具大师！) 4
-      - 🇺🇲 美国(Youtube频道：工具大师！) 5
-      - 🇺🇲 美国(Youtube频道：工具大师！) 6
-      - 🇺🇲 美国(Youtube频道：工具大师！) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！) 8
-      - 🇺🇲 美国(Youtube频道：工具大师！) 9
-      - 🇺🇲 美国(Youtube频道：工具大师！) 10
-      - 🇺🇲 美国(Youtube频道：工具大师！) 11
-      - 🇺🇲 美国(Youtube频道：工具大师！) 12
-      - 罗马(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！) 2
-      - 罗马(Youtube频道：工具大师！) 3
-      - 罗马(Youtube频道：工具大师！) 4
-      - 罗马(Youtube频道：工具大师！) 5
-      - 罗马(Youtube频道：工具大师！) 6
-      - 罗马(Youtube频道：工具大师！) 7
-      - 罗马(Youtube频道：工具大师！) 8
-      - 拉脱维亚(Youtube频道：工具大师！)
-      - 拉脱维亚(Youtube频道：工具大师！) 2
-      - 拉脱维亚(Youtube频道：工具大师！) 3
-      - 拉脱维亚(Youtube频道：工具大师！) 4
-      - 拉脱维亚(Youtube频道：工具大师！) 5
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！)
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 2
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 3
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 4
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 5
-      - 🇩🇰 丹麦(Youtube频道：工具大师！) 6
-      - 🇩🇪 德国(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！)
-      - 捷克(Youtube频道：工具大师！) 2
-      - 捷克(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
-      - 欧洲(Youtube频道：工具大师！) 4
-      - 欧洲(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！) 6
-      - 欧洲(Youtube频道：工具大师！) 7
-      - 欧洲(Youtube频道：工具大师！) 8
-      - 91.90.123.171:40093
-      - 192.40.59.229:39772
-      - 156.146.33.83:39772
-      - 173.237.207.30:33148
-      - 209.216.92.3:34815
-      - 173.237.207.30:32558
-      - 207.244.127.118:40093
-      - 209.216.92.3:37588
-      - 98.142.220.37:39772
-      - 156.146.33.79:39772
-      - 207.244.84.58:33992
-      - 209.216.92.3:33992
-      - 172.98.78.227:39772
-      - 202.143.110.36:33992
-      - 154.16.93.51:39772
-      - 45.130.137.3:31944
-      - 45.130.137.14:37473
-      - 45.130.137.3:33992
-      - 89.187.168.41:40093
-      - 185.153.150.63:40093
-      - 185.188.61.35:37588
-      - 196.244.191.107:38620
-      - 196.244.191.107:40093
-      - 196.244.191.91:39772
-      - 196.244.191.107:37588
-      - 196.244.191.35:39772
-      - Relay_ |17.35Mb
-      - Relay_ |61.06Mb
-      - Relay_ |34.69Mb
-      - Relay_ | 5.18Mb
-      - Relay_ |62.84Mb
-      - Relay_ |51.78Mb
-      - Relay_ |40.68Mb
-      - Relay_ |46.50Mb
-      - Relay_ |15.16Mb
-      - Relay_ |18.43Mb
+      - 91.90.123.115:49339
+      - 91.90.123.115:48794
+      - 198.8.92.84:35294
+      - 🇺🇲 美国w 26
+      - 198.8.92.84:35294 2
+      - 🇺🇲 美国w 13
+      - 🇺🇲 美国f 10
+      - 198.8.92.84:38620
+      - 🇺🇲 美国w 5
+      - 198.8.92.84:49396
+      - 🇺🇲 美国w 6
+      - 🇺🇲 美国f 2
+      - 🇺🇲 美国w 4
+      - 198.8.92.84:38620 2
+      - 198.8.92.84:35294 3
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x
+      - 198.8.92.84:40093
+      - 🇺🇲 美国f 6
+      - 🇺🇲 美国(g) 6
+      - 🇺🇲 美国f 9
+      - 🇺🇲 美国w 10
+      - 🇺🇲 美国(g) 8
+      - 🇺🇲 美国w 2
+      - 🇺🇲 美国f 5
+      - 🇺🇲 美国f 12
+      - f 5
+      - w 5
+      - 198.8.92.84:35294 4
+      - 198.8.92.84:38742
+      - 🇺🇲 美国w 20
+      - 🇺🇲 美国w 21
+      - 198.8.92.84:49396 2
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x
+      - 🇺🇲 美国w 27
+      - 🇺🇲 美国w 8
+      - 🇺🇲 美国f 13
+      - 🇺🇲 美国w 15
+      - 🇺🇲 美国f 15
+      - 🇺🇲 美国f 8
+      - f 4
+      - 🇺🇲 美国f 4
+      - 195.47.194.42:35294
+      - 195.47.194.42:33992
+      - 195.47.194.42:33992 2
+      - 195.47.194.42:40093
+      - 195.47.194.42:37588
+      - 195.47.194.42:31944
+      - 195.47.194.42:31944 2
+      - 195.47.194.42:34815
+      - 66.115.175.37:50168
+      - 🇺🇲 美国w 32
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x
+      - 198.8.92.84:35294 5
+      - 198.147.22.87:40093
+      - g 4
+      - 198.147.22.87:33998
+      - 198.147.22.87:35200
+      - 198.147.22.87:33998 2
+      - 198.147.22.87:32558
+      - 91.90.123.115:49339 2
+      - 91.90.123.115:48794 2
+      - 198.8.92.84:35294 6
+      - 🇺🇲 美国w 26 2
+      - 198.8.92.84:35294 7
+      - 🇺🇲 美国w 13 2
+      - 🇺🇲 美国f 10 2
+      - 198.8.92.84:38620 3
+      - 🇺🇲 美国w 5 2
+      - 198.8.92.84:49396 3
+      - 🇺🇲 美国w 6 2
+      - 🇺🇲 美国f 2 2
+      - 🇺🇲 美国w 4 2
+      - 198.8.92.84:38620 4
+      - 198.8.92.84:35294 8
+      - 🇺🇲 美国 ☆☆ 01 ☆NTT☆-1.2x 2
+      - 198.8.92.84:40093 2
+      - 🇺🇲 美国f 6 2
+      - 🇺🇲 美国(g) 6 2
+      - 🇺🇲 美国f 9 2
+      - 🇺🇲 美国w 10 2
+      - 🇺🇲 美国(g) 8 2
+      - 🇺🇲 美国w 2 2
+      - 🇺🇲 美国f 5 2
+      - 🇺🇲 美国f 12 2
+      - f 5 2
+      - w 5 2
+      - 198.8.92.84:35294 9
+      - 198.8.92.84:38742 2
+      - 🇺🇲 美国w 20 2
+      - 🇺🇲 美国w 21 2
+      - 198.8.92.84:49396 4
+      - 🇺🇲 美国 ☆☆ 05 ☆NTT☆-1.2x 2
+      - 🇺🇲 美国w 27 2
+      - 🇺🇲 美国w 8 2
+      - 🇺🇲 美国f 13 2
+      - 🇺🇲 美国w 15 2
+      - 🇺🇲 美国f 15 2
+      - 🇺🇲 美国f 8 2
+      - f 4 2
+      - 🇺🇲 美国f 4 2
+      - 195.47.194.42:35294 2
+      - 195.47.194.42:33992 3
+      - 195.47.194.42:33992 4
+      - 195.47.194.42:40093 2
+      - 195.47.194.42:37588 2
+      - 195.47.194.42:31944 3
+      - 195.47.194.42:31944 4
+      - 195.47.194.42:34815 2
+      - 66.115.175.37:50168 2
+      - 🇺🇲 美国w 32 2
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆-1.2x 2
+      - 🇺🇲 美国 ☆☆ 04 ☆NTT☆-1.2x 2
+      - g 25
+      - 198.8.92.84:35294 10
+      - 198.147.22.87:40093 2
+      - g 4 2
+      - 198.147.22.87:33998 3
+      - 198.147.22.87:35200 2
+      - 🇺🇲 美国w 14
+      - 198.147.22.87:33998 4
+      - 198.147.22.87:32558 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1218,20 +1056,6 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2882,41 +2706,6 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
- - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,mtalk.google.com,📢 谷歌FCM
- - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
  - DOMAIN-SUFFIX,265.com,🎯 全球直连
  - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -3058,18 +2847,6 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
- - DOMAIN-SUFFIX,t.me,📲 电报信息
- - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
- - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
- - DOMAIN-SUFFIX,telegram.me,📲 电报信息
- - DOMAIN-SUFFIX,telegram.org,📲 电报信息
- - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
- - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
@@ -3338,6 +3115,18 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,t.me,📲 电报信息
+ - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+ - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+ - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+ - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -3540,8 +3329,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -3703,6 +3490,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
