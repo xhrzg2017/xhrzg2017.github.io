@@ -1,3 +1,4 @@
+  proxies:
   - {name: 117.28.243.246:8333, server: 117.28.243.246, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇨🇳 p3.twfast789.com:8333, server: p3.twfast789.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇨🇳 p3.twfast789.com:8333 2, server: p3.twfast789.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
